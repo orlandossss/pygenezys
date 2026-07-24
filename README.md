@@ -70,42 +70,12 @@ Each resource is namespaced on the client and mirrors a Genezys feature area:
 
 `client.deck.build_deck_*()` and `client.match.run_*_match()` mutate your
 real account state (they change your live deck / queue a real match) — use
-them deliberately.
+them deliberately, they make real action.
 
-## Error handling
+## Forms of answers
 
-All errors raised by `pygenezys` inherit from `GenezysError`:
-
-```python
-from pygenezys import GenezysAuthError, GenezysError
-
-try:
-    client.user.get_gnz()
-except GenezysAuthError:
-    print("Token expired, get a new one")
-except GenezysError as e:
-    print(f"Something else went wrong: {e}")
-```
-
-- `GenezysAuthError` — the token was rejected (expired or invalid).
-- `GenezysAPIError` — a non-auth API error, or an unexpected response shape.
-- `GenezysConnectionError` — a network-level failure (timeout, DNS, etc.).
-
-## Development
-
-```
-uv sync --group dev
-uv run pytest
-```
-
-The mocked test suite runs offline with no credentials required. There's
-also an opt-in live integration suite that hits the real API — set
-`PYGENEZYS_LIVE_TOKEN` to a fresh token to run it:
-
-```
-$env:PYGENEZYS_LIVE_TOKEN = "your-token-here"
-uv run pytest tests/test_live_integration.py -v
-```
+You can find every exemple of every json answers and their expected field in pygenezys/tests
+/fixtures.
 
 ## License
 

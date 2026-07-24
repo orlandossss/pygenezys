@@ -1,0 +1,170 @@
+{
+    "message": "listings found",
+    "data": {
+        "listings": [
+            {
+                "id": "1f187380-a72c-6c90-7911-84031ea57d46",
+                "userId": "google_113677275493965472111",
+                "userPseudo": "RoaringRaven",
+                "price": 2199,
+                "created": "2026-07-24T08:17:01.871Z",
+                "updated": "2026-07-24T08:17:01.871Z",
+                "item": {
+                    "acquisitionDate": "2026-01-20T19:44:06.613Z",
+                    "clientName": "Earvin Ngapeth",
+                    "baseScore": 515,
+                    "collectionName": "Saison 2 - 2025/26",
+                    "number": 223,
+                    "GSI2SK": "COL#1f0c9d14-5169-60e0-a792-4584d6e88d57#1-UNIQ#RAR#97#ID#1f0f6386-1d53-66d5-9a61-7b8b756c7c4e",
+                    "transactionsHistory": [
+                        {
+                            "ownerId": "google_113677275493965472111",
+                            "transactionId": "1f0f6385-546c-6c30-b39b-4de9c6268416"
+                        }
+                    ],
+                    "baseLanguage": "FR",
+                    "inNbDeckUsage": 0,
+                    "id": "1f0f6386-1d53-66d5-9a61-7b8b756c7c4e",
+                    "collectionId": "1f0c9d14-5169-60e0-a792-4584d6e88d57",
+                    "firstBuyerNb": 17,
+                    "image": {
+                        "urlOriginal": "https://media.app.genezys.xyz/1f0c9d14-5169-60e0-a792-4584d6e88d57/CardMetadataImage/1ef8bd00-4ffb-64e0-f0fa-f6a872ec9f67/2/original.png?1764056310674",
+                        "urlThumbnail": "https://media.app.genezys.xyz/1f0c9d14-5169-60e0-a792-4584d6e88d57/CardMetadataImage/1ef8bd00-4ffb-64e0-f0fa-f6a872ec9f67/2/thumbnail.jpeg?1764056311667",
+                        "urlFull": "https://media.app.genezys.xyz/1f0c9d14-5169-60e0-a792-4584d6e88d57/CardMetadataImage/1ef8bd00-4ffb-64e0-f0fa-f6a872ec9f67/2/full.jpeg?1764056312352"
+                    },
+                    "characteristics": [
+                        {
+                            "name": "Vision",
+                            "value": 3
+                        },
+                        {
+                            "name": "Power",
+                            "value": 4
+                        },
+                        {
+                            "name": "Balance",
+                            "value": 6
+                        },
+                        {
+                            "name": "Reflexes",
+                            "value": 7
+                        }
+                    ],
+                    "clientId": "1ef8bd00-4ffb-64e0-f0fa-f6a872ec9f67",
+                    "level": "star",
+                    "ownerInterractionStatus": "Revealed",
+                    "created": "2026-01-20T19:44:07.045Z",
+                    "activeBuffs": [
+                        {
+                            "endDate": "2026-07-26T22:14:00.621Z",
+                            "boostedCharacteristics": [],
+                            "itemName": "Eau minérale 🧊"
+                        }
+                    ],
+                    "health": {
+                        "lastChange": "2026-07-24T06:28:23.207Z",
+                        "points": 80
+                    },
+                    "mintedDate": "2026-01-20T19:44:06.613Z",
+                    "cardTitle": "Earvin Ngapeth",
+                    "userId": "google_113677275493965472111",
+                    "athleteCategory": "athlete",
+                    "cardMetadataId": "1ef8bd00-4ffb-64e0-f0fa-f6a872ec9f67",
+                    "boosterId": "1f0f6386-1d53-66d2-362f-6073aa911270",
+                    "listingPrices": [
+                        {
+                            "price": 2199,
+                            "listingId": "1f187380-a72c-6c90-7911-84031ea57d46"
+                        }
+                    ],
+                    "sport": "VOL",
+                    "updated": "2026-07-24T06:28:44.820Z",
+                    "rarity": "Epic"
+                },
+                "itemType": "Card",
+                "lockCounter": 0
+            },
+            {
+                "id": "1f18736c-2e04-6f20-4a5f-5844fb3c68d6",
+                "userId": "b6d076f3-6552-421c-af87-db5dd1903e25",
+                "userPseudo": "prismjuju",
+                "price": 1200,
+                "created": "2026-07-24T08:07:52.474Z",
+                "updated": "2026-07-24T08:07:52.474Z",
+                "item": {
+                    "acquisitionDate": "2026-07-21T20:49:54.494Z",
+                    "clientName": "Benoît Saint-Denis",
+                    "baseScore": 317,
+                    "collectionName": "Saison 2 - 2025/26",
+                    "number": 1737,
+                    "GSI2SK": "COL#1f084e09-fee2-6310-25d6-35154b276a8c#1-UNIQ#RAR#99#ID#1f18545b-a2a0-6673-6b24-ce99cb552307",
+                    "transactionsHistory": [
+                        {
+                            "ownerId": "b6d076f3-6552-421c-af87-db5dd1903e25",
+                            "transactionId": "1f18545b-9090-6610-d5d5-897af2da3613"
+                        }
+                    ],
+                    "baseLanguage": "FR",
+                    "inNbDeckUsage": 0,
+                    "id": "1f18545b-a2a0-6673-6b24-ce99cb552307",
+                    "collectionId": "1f084e09-fee2-6310-25d6-35154b276a8c",
+                    "firstBuyerNb": 518,
+                    "image": {
+                        "urlOriginal": "https://media.app.genezys.xyz/1f084e09-fee2-6310-25d6-35154b276a8c/CardMetadataImage/1eef8156-6074-6c20-2ad8-2b7ee7357831/0/original.png?1756804014469",
+                        "urlThumbnail": "https://media.app.genezys.xyz/1f084e09-fee2-6310-25d6-35154b276a8c/CardMetadataImage/1eef8156-6074-6c20-2ad8-2b7ee7357831/0/thumbnail.jpeg?1756804017308",
+                        "urlFull": "https://media.app.genezys.xyz/1f084e09-fee2-6310-25d6-35154b276a8c/CardMetadataImage/1eef8156-6074-6c20-2ad8-2b7ee7357831/0/full.jpeg?1756804017966"
+                    },
+                    "characteristics": [
+                        {
+                            "name": "Power",
+                            "value": 9
+                        },
+                        {
+                            "name": "Technique",
+                            "value": 6
+                        },
+                        {
+                            "name": "Reflexes",
+                            "value": 4
+                        },
+                        {
+                            "name": "Resilience",
+                            "value": 2
+                        }
+                    ],
+                    "clientId": "1eef8156-6074-6c20-2ad8-2b7ee7357831",
+                    "level": "star",
+                    "ownerInterractionStatus": "Revealed",
+                    "created": "2026-07-21T20:49:55.036Z",
+                    "health": {
+                        "lastChange": "2026-07-21T20:49:55.036Z",
+                        "points": 100
+                    },
+                    "mintedDate": "2026-07-21T20:49:54.494Z",
+                    "cardTitle": "Benoît Saint-Denis",
+                    "userId": "b6d076f3-6552-421c-af87-db5dd1903e25",
+                    "athleteCategory": "athlete",
+                    "cardMetadataId": "1eef8156-6074-6c20-2ad8-2b7ee7357831",
+                    "boosterId": "1f18545b-a2a0-6670-0535-ba0762784dbb",
+                    "listingPrices": [
+                        {
+                            "price": 1200,
+                            "listingId": "1f18736c-2e04-6f20-4a5f-5844fb3c68d6"
+                        }
+                    ],
+                    "sport": "CBT",
+                    "updated": "2026-07-21T20:50:34.039Z",
+                    "rarity": "Limited"
+                },
+                "itemType": "Card",
+                "lockCounter": 0
+            }
+        ],
+        "nextKey": {
+            "GSI2SK": "CREATED#2026-07-23T06:59:01.819Z",
+            "SK": "#LST",
+            "GSI2PK": "LST",
+            "PK": "LST#1f18663f-beec-66d0-d547-c102bb9678af"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "message": "Transaction list",
+    "data": {
+        "transactionsList": [
+            {
+                "id": "1f185b0e-0e24-66e0-aaf2-4cb947c14cbc",
+                "userId": "google_101848755527710938761",
+                "created": "2026-07-22T09:36:56.506Z",
+                "updated": "2026-07-22T09:37:19.470Z",
+                "type": "buyer-with-payment",
+                "globalStatus": "success",
+                "lastStep": "confirmed",
+                "origin": "buy-on-secondary-market",
+                "products": [
+                    {
+                        "product": {
+                            "listings": [
+                                {
+                                    "itemType": "Card",
+                                    "item": {
+                                        "number": 511,
+                                        "collectionId": "1f094991-19ce-6f10-ffa5-7d287142721b",
+                                        "id": "1f0fdb9e-e6e7-69c0-d60f-93f64561be41"
+                                    },
+                                    "id": "1f115b9c-61f0-6210-45a9-626d319fa950",
+                                    "userId": "a49b9a74-2fa5-4bf8-88c3-5bf59baa023b",
+                                    "price": 50
+                                }
+                            ],
+                            "wasBuyerPreviousOwner": false
+                        },
+                        "amount": 50,
+                        "asyncJobStatus": "done",
+                        "productType": "secondary-market"
+                    }
+                ],
+                "totalWithoutDiscount": 50,
+                "totalWithDiscount": 50,
+                "feePercentage": 0,
+                "paymentProviderType": "gnzToken",
+                "paymentProvider": {},
+                "currency": "gnz-token"
+            }
+        ],
+        "nextKey": {
+            "SK": "TRS#1f162c6f-280c-6cd0-3146-078176a53773",
+            "PK": "USR#google_101848755527710938761"
+        }
+    }
+}

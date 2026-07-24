@@ -1,0 +1,134 @@
+{
+    "message": "List of the user current period rankings and general ranking",
+    "data": {
+        "top": [
+            {
+                "type": "cup",
+                "userId": "google_114504110887060449139",
+                "pseudo": "Camavingoat",
+                "score": 145,
+                "scoreUsedForPosition": 145,
+                "position": 1,
+                "previousPosition": 6,
+                "lastUpdate": "2026-07-24T04:47:54.798Z",
+                "endAt": "2026-07-26T22:00:00.000Z",
+                "tokenPeriodId": "1f183bd5-446f-64f0-ca1a-565bbbbde884",
+                "cupId": "1f181207-bdb4-6420-6a14-c9a9c0692c4f",
+                "nbMatchLaunch": 50,
+                "created": "2026-07-20T05:07:23.669Z",
+                "updated": "2026-07-24T05:00:45.032Z"
+            },
+            {
+                "type": "cup",
+                "userId": "google_113677275493965472111",
+                "pseudo": "RoaringRaven",
+                "score": 137,
+                "scoreUsedForPosition": 137,
+                "position": 2,
+                "previousPosition": 2,
+                "lastUpdate": "2026-07-24T06:26:27.489Z",
+                "endAt": "2026-07-26T22:00:00.000Z",
+                "tokenPeriodId": "1f183bd5-446f-64f0-ca1a-565bbbbde884",
+                "cupId": "1f181207-bdb4-6420-6a14-c9a9c0692c4f",
+                "nbMatchLaunch": 46,
+                "created": "2026-07-19T22:24:16.849Z",
+                "updated": "2026-07-24T07:00:45.070Z"
+            },
+            {
+                "type": "cup",
+                "userId": "ed01c361-6adb-4af6-aceb-c1e54c0209b9",
+                "pseudo": "MrFlantier",
+                "score": 133,
+                "scoreUsedForPosition": 133,
+                "position": 3,
+                "previousPosition": 4,
+                "lastUpdate": "2026-07-24T04:36:23.877Z",
+                "endAt": "2026-07-26T22:00:00.000Z",
+                "tokenPeriodId": "1f183bd5-446f-64f0-ca1a-565bbbbde884",
+                "cupId": "1f181207-bdb4-6420-6a14-c9a9c0692c4f",
+                "nbMatchLaunch": 45,
+                "created": "2026-07-19T22:27:47.410Z",
+                "updated": "2026-07-24T07:00:45.070Z"
+            }
+        ],
+        "around": [
+            {
+                "type": "cup",
+                "userId": "google_116846248568864690743",
+                "pseudo": "DavGF38",
+                "score": 8,
+                "scoreUsedForPosition": 8,
+                "position": 68,
+                "previousPosition": 68,
+                "lastUpdate": "2026-07-23T21:01:04.255Z",
+                "endAt": "2026-07-26T22:00:00.000Z",
+                "tokenPeriodId": "1f183bd5-446f-64f0-ca1a-565bbbbde884",
+                "cupId": "1f181207-bdb4-6420-6a14-c9a9c0692c4f",
+                "nbMatchLaunch": 40,
+                "created": "2026-07-20T20:27:51.100Z",
+                "updated": "2026-07-24T00:00:30.019Z"
+            },
+            {
+                "type": "cup",
+                "userId": "29e010fd-bb3c-4be6-a007-9e6631460dd6",
+                "pseudo": "Franck37",
+                "score": 7,
+                "scoreUsedForPosition": 7,
+                "position": 69,
+                "previousPosition": 69,
+                "lastUpdate": "2026-07-21T20:54:48.030Z",
+                "endAt": "2026-07-26T22:00:00.000Z",
+                "tokenPeriodId": "1f183bd5-446f-64f0-ca1a-565bbbbde884",
+                "cupId": "1f181207-bdb4-6420-6a14-c9a9c0692c4f",
+                "nbMatchLaunch": 13,
+                "created": "2026-07-21T20:40:47.442Z",
+                "updated": "2026-07-24T00:00:30.019Z"
+            },
+            {
+                "type": "cup",
+                "userId": "cf799b26-d27b-4de3-974f-c90c9743fd1f",
+                "pseudo": "Sufi1206",
+                "score": 7,
+                "scoreUsedForPosition": 7,
+                "position": 70,
+                "previousPosition": 84,
+                "lastUpdate": "2026-07-24T06:05:49.811Z",
+                "endAt": "2026-07-26T22:00:00.000Z",
+                "tokenPeriodId": "1f183bd5-446f-64f0-ca1a-565bbbbde884",
+                "cupId": "1f181207-bdb4-6420-6a14-c9a9c0692c4f",
+                "nbMatchLaunch": 14,
+                "created": "2026-07-20T04:39:34.280Z",
+                "updated": "2026-07-24T07:00:45.076Z"
+            }
+        ],
+        "me": {
+            "type": "cup",
+            "userId": "google_101848755527710938761",
+            "pseudo": "Orlandos",
+            "score": 3,
+            "scoreUsedForPosition": 3,
+            "position": 78,
+            "previousPosition": 77,
+            "lastUpdate": "2026-07-22T11:50:53.133Z",
+            "endAt": "2026-07-26T22:00:00.000Z",
+            "tokenPeriodId": "1f183bd5-446f-64f0-ca1a-565bbbbde884",
+            "cupId": "1f181207-bdb4-6420-6a14-c9a9c0692c4f",
+            "nbMatchLaunch": 2,
+            "created": "2026-07-22T11:50:53.133Z",
+            "updated": "2026-07-24T07:00:45.077Z"
+        },
+        "rankingSpecificity": {
+            "cupId": "1f181207-bdb4-6420-6a14-c9a9c0692c4f",
+            "startDate": "2026-07-19T22:00:00.000Z",
+            "endDate": "2026-07-26T22:00:00.000Z",
+            "isBoosted": true,
+            "totalGems": 15000,
+            "rewardConfig": {
+                "toTopUser": 50,
+                "percentFirstUser": 0.08,
+                "percentForAllUser": 0.92,
+                "alpha": 0.1
+            }
+        }
+    }
+}

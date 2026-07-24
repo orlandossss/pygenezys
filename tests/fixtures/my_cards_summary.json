@@ -1,0 +1,131 @@
+{
+    "message": "Cards list ",
+    "data": {
+        "cardsList": [
+            {
+                "number": 515,
+                "baseScore": 515,
+                "inNbDeckUsage": 2,
+                "activeBuffs": [
+                    {
+                        "endDate": "2026-07-26T15:22:26.591Z",
+                        "boostedCharacteristics": [],
+                        "itemName": "Eau minérale 🧊"
+                    }
+                ],
+                "level": "star",
+                "health": {
+                    "lastChange": "2026-07-22T15:22:26.629Z",
+                    "points": 96
+                },
+                "collectionId": "1f0efa55-0c3d-68e0-5414-b0d13fbc58e4",
+                "clientName": "Corentin Moutet",
+                "id": "1f158290-6041-63f3-cd61-2c047937d9c7",
+                "firstBuyerNb": 35,
+                "clientId": "1efc9ae5-9eec-6f10-ad23-85acb94f820a",
+                "sport": "TEN",
+                "collectionName": "Saison 2 - 2026",
+                "mintedDate": "2026-05-25T11:01:04.229Z",
+                "acquisitionDate": "2026-06-03T09:40:06.128Z",
+                "baseLanguage": "FR",
+                "cardTitle": "Corentin Moutet",
+                "listingPrices": [],
+                "userId": "google_101848755527710938761",
+                "image": {
+                    "urlOriginal": "https://media.app.genezys.xyz/1f0efa55-0c3d-68e0-5414-b0d13fbc58e4/CardMetadataImage/1efc9ae5-9eec-6f10-ad23-85acb94f820a/2/original.png?1768233223689",
+                    "urlThumbnail": "https://media.app.genezys.xyz/1f0efa55-0c3d-68e0-5414-b0d13fbc58e4/CardMetadataImage/1efc9ae5-9eec-6f10-ad23-85acb94f820a/2/thumbnail.jpeg?1768233226914",
+                    "urlFull": "https://media.app.genezys.xyz/1f0efa55-0c3d-68e0-5414-b0d13fbc58e4/CardMetadataImage/1efc9ae5-9eec-6f10-ad23-85acb94f820a/2/full.jpeg?1768233225162"
+                },
+                "characteristics": [
+                    {
+                        "name": "Reasoning",
+                        "value": 4
+                    },
+                    {
+                        "name": "Power",
+                        "value": 5
+                    },
+                    {
+                        "name": "Technique",
+                        "value": 10
+                    },
+                    {
+                        "name": "Vision",
+                        "value": 1
+                    }
+                ],
+                "rarity": "Epic",
+                "athleteCategory": "athlete",
+                "boosterId": "1f158290-6041-63f0-05ba-94aad6ee6d5d",
+                "ownerInterractionStatus": "Revealed"
+            },
+            {
+                "clientId": "1f0d5a14-a26e-67c0-00f8-60c8b58b411e",
+                "number": 658,
+                "clientName": "Éric Perrot",
+                "sport": "BIA",
+                "inNbDeckUsage": 2,
+                "level": "star",
+                "image": {
+                    "urlOriginal": "https://media.app.genezys.xyz/1f0d5a2a-718e-6450-4d0a-b208cc23e98c/CardMetadataImage/1f0d5a14-a26e-67c0-00f8-60c8b58b411e/2/original.png?1765355626145",
+                    "urlThumbnail": "https://media.app.genezys.xyz/1f0d5a2a-718e-6450-4d0a-b208cc23e98c/CardMetadataImage/1f0d5a14-a26e-67c0-00f8-60c8b58b411e/2/thumbnail.jpeg?1765355627424",
+                    "urlFull": "https://media.app.genezys.xyz/1f0d5a2a-718e-6450-4d0a-b208cc23e98c/CardMetadataImage/1f0d5a14-a26e-67c0-00f8-60c8b58b411e/2/full.jpeg?1765355627673"
+                },
+                "mintedDate": "2026-05-10T16:31:24.173Z",
+                "id": "1f14c8da-f653-6020-71cb-077f97a3c431",
+                "firstBuyerNb": 55,
+                "activeBuffs": [
+                    {
+                        "endDate": "2026-06-16T21:16:56.055Z",
+                        "boostedCharacteristics": [],
+                        "itemName": "Eau minérale 🧊"
+                    },
+                    {
+                        "endDate": "2026-06-16T21:16:59.656Z",
+                        "boostedCharacteristics": [],
+                        "itemName": "Eau minérale 🧊"
+                    }
+                ],
+                "characteristics": [
+                    {
+                        "name": "Power",
+                        "value": 3
+                    },
+                    {
+                        "name": "Technique",
+                        "value": 8
+                    },
+                    {
+                        "name": "Endurance",
+                        "value": 4
+                    },
+                    {
+                        "name": "Resilience",
+                        "value": 4
+                    }
+                ],
+                "acquisitionDate": "2026-05-10T16:31:24.173Z",
+                "health": {
+                    "lastChange": "2026-07-22T11:51:41.803Z",
+                    "points": 79
+                },
+                "baseLanguage": "FR",
+                "cardTitle": "Éric Perrot",
+                "listingPrices": [],
+                "collectionName": "Saison 1 - 2025/26",
+                "userId": "google_101848755527710938761",
+                "rarity": "Epic",
+                "collectionId": "1f0d5a2a-718e-6450-4d0a-b208cc23e98c",
+                "baseScore": 513,
+                "athleteCategory": "athlete",
+                "ownerInterractionStatus": "Revealed"
+            }
+        ],
+        "nextKey": {
+            "GSIN1PK": "USR#google_101848755527710938761#CRD",
+            "SK": "CRD#1f12233a-1ef0-6a30-6379-f844edaa8551#2-LINKED",
+            "PK": "COL#1f0c097d-7506-6410-166e-1e2e6b72b32a#CRD",
+            "GSIN1SK": 194
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "message": "cups listed",
+    "data": [
+        {
+            "id": "1f181207-bdb4-6420-6a14-c9a9c0692c4f",
+            "status": "ready",
+            "constraints": {
+                "acceptedRarities": [
+                    "common",
+                    "Limited",
+                    "Rare",
+                    "Epic"
+                ]
+            },
+            "compatibilityHash": "1d2ed7708f26e5caa8a82b869c1cbcf8",
+            "startDate": "2026-07-19T22:00:00.000Z",
+            "endDate": "2026-07-26T22:00:00.000Z",
+            "isBoosted": true,
+            "totalGems": 15000,
+            "rewardConfig": {
+                "toTopUser": 50,
+                "percentFirstUser": 0.08,
+                "percentForAllUser": 0.92,
+                "alpha": 0.1
+            },
+            "created": "2026-07-16T14:13:14.228Z",
+            "updated": "2026-07-16T14:13:14.228Z"
+        },
+        {
+            "id": "1f181208-7d3d-6760-94a2-c9a2347f9be4",
+            "status": "ready",
+            "constraints": {
+                "acceptedRarities": [
+                    "common"
+                ]
+            },
+            "compatibilityHash": "ebd84812d34db552d0e49d8b77ac2da2",
+            "startDate": "2026-07-19T22:00:00.000Z",
+            "endDate": "2026-07-26T22:00:00.000Z",
+            "totalActivityPoints": 50000,
+            "isBoosted": false,
+            "rewardConfig": {
+                "toTopUser": 50,
+                "percentFirstUser": 0.08,
+                "percentForAllUser": 0.92,
+                "alpha": 0.1
+            },
+            "created": "2026-07-16T14:13:34.294Z",
+            "updated": "2026-07-16T14:13:34.294Z"
+        }
+    ]
+}

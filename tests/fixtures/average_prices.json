@@ -1,0 +1,23 @@
+{
+    "message": "rarity sale prices found",
+    "data": {
+        "averagePrices": [
+            {
+                "rarity": "Epic",
+                "averagePrice": 1252.812509722942
+            },
+            {
+                "rarity": "Legendary",
+                "averagePrice": 5542.73503599972
+            },
+            {
+                "rarity": "Limited",
+                "averagePrice": 132.75592849228318
+            },
+            {
+                "rarity": "Rare",
+                "averagePrice": 349.6905461062041
+            }
+        ]
+    }
+}

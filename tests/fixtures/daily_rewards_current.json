@@ -1,0 +1,9 @@
+{
+    "message": "Daily reward retrieved",
+    "data": {
+        "id": "1f0df49d-d6fe-6570-526a-3b128a076c3f",
+        "lastActiveDate": "2026-07-23T22:00:00.000Z",
+        "rewardType": "BOOSTER",
+        "rewardQuantity": 1
+    }
+}

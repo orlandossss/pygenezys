@@ -1,0 +1,37 @@
+{
+    "message": "Challenges list",
+    "data": [
+        {
+            "id": "1f1399c9-20b6-6de0-7835-c045fc9e7412",
+            "type": "client",
+            "clientId": "1efa0e0e-9977-6370-d55a-2f778c6374d7",
+            "clientName": "Nolann Le Garrec",
+            "baseLanguage": "FR",
+            "collections": [
+                {
+                    "name": "Saison 2 - 2025/26",
+                    "baseLanguage": "FR",
+                    "id": "1f0d6966-6e57-6e80-2f71-92da97bcb6d8"
+                }
+            ],
+            "sport": "RUG",
+            "publishStatus": "published",
+            "title": "Sac Adidas La Rochelle 💛",
+            "description": "Je vous fais gagner un sac adidas aux couleurs de La Rochelle 🔥\nUn indispensable pour transporter ton équipement… et représenter le club partout avec toi.\n\nQue ce soit pour le rugby ou le quotidien, il va vite devenir ton allié.\nOn se retrouve sur le terrain 😉",
+            "image": {
+                "urlOriginal": "https://media.app.genezys.xyz/1efa0e0e-9977-6370-d55a-2f778c6374d7/ChallengeImage/1f1399c9-20b6-6de0-7835-c045fc9e7412/image/original.png?1776348060722",
+                "urlFull": "https://media.app.genezys.xyz/1efa0e0e-9977-6370-d55a-2f778c6374d7/ChallengeImage/1f1399c9-20b6-6de0-7835-c045fc9e7412/image/full.jpeg?1776348062295"
+            },
+            "advantageType": "PhysicalObject",
+            "advantageUsageLimitDate": "2026-10-18T14:01:00.000Z",
+            "challengeStartAt": "2026-07-22T15:00:05.000Z",
+            "challengeEndAt": "2026-10-04T14:00:05.000Z",
+            "nbMaxWinners": 1,
+            "nbMaxRewardsPerWinner": 1,
+            "target": "Cards",
+            "nbTotalEntries": 2294,
+            "isFirst": false,
+            "updated": "2026-07-24T04:30:16.177Z"
+        }
+    ]
+}

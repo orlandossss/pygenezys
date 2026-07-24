@@ -1,0 +1,946 @@
+{
+    "message": "Matchs listed",
+    "data": {
+        "matches": [
+            {
+                "matchId": "1f185c3b-353d-6a50-2af6-9c4460f38621",
+                "userId": "google_101848755527710938761",
+                "adversaryId": "google_116755643509038501378",
+                "adversaryPseudo": "Goalgetter8757",
+                "arenaThemeId": "1f176af7-3a7b-60c0-b949-f5bc23475c07",
+                "userDeck": {
+                    "cardsEquipments": [
+                        {
+                            "equipment": {
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/FantasyItemDefinition/FatansyItemDefinitionImage/1f09e0bd-e101-6470-ec79-2c9d42f67a39/0/original.png?1759243426424",
+                                    "urlFull": "https://media.app.genezys.xyz/FantasyItemDefinition/FatansyItemDefinitionImage/1f09e0bd-e101-6470-ec79-2c9d42f67a39/0/full.png?1759243428077"
+                                },
+                                "description": "Quoi de mieux que cette paire de basket pour booster ton agilité et ton équilibre ?  💨",
+                                "versionHash": "ee9a8b9755c8e1670ec0be4da458e65e",
+                                "type": "equipment",
+                                "title": "Basket 👟",
+                                "baseLanguage": "EN",
+                                "itemStats": {
+                                    "boostedCharacteristics": [
+                                        {
+                                            "name": "Power",
+                                            "boostPercentage": 10
+                                        },
+                                        {
+                                            "name": "Endurance",
+                                            "boostPercentage": 5
+                                        },
+                                        {
+                                            "name": "Reflexes",
+                                            "boostPercentage": -10
+                                        }
+                                    ]
+                                },
+                                "id": "1f09e0bd-e101-6470-ec79-2c9d42f67a39_ee9a8b9755c8e1670ec0be4da458e65e",
+                                "definitionId": "1f09e0bd-e101-6470-ec79-2c9d42f67a39"
+                            },
+                            "score": 803,
+                            "card": {
+                                "acquisitionDate": "2026-06-03T09:40:06.128Z",
+                                "clientName": "Corentin Moutet",
+                                "baseScore": 515,
+                                "collectionName": "Saison 2 - 2026",
+                                "number": 515,
+                                "GSI3SK": "CRD#1f158290-6041-63f3-cd61-2c047937d9c7",
+                                "GSI2SK": "COL#1f0efa55-0c3d-68e0-5414-b0d13fbc58e4#1-UNIQ#RAR#97#ID#1f158290-6041-63f3-cd61-2c047937d9c7",
+                                "GSI1SK": "CRD#1-UNIQ#1f158290-6041-63f3-cd61-2c047937d9c7",
+                                "SK": "CRD#1f158290-6041-63f3-cd61-2c047937d9c7#1-UNIQ",
+                                "transactionsHistory": [
+                                    {
+                                        "ownerId": "google_108853974414308182916",
+                                        "transactionId": "1f15828f-e098-6950-e5d1-35a4ffaf4f2a"
+                                    },
+                                    {
+                                        "ownerId": "google_101848755527710938761",
+                                        "transactionId": "1f15f303-3a81-6b40-3b54-36c51ac4d476"
+                                    }
+                                ],
+                                "baseLanguage": "FR",
+                                "inNbDeckUsage": 2,
+                                "id": "1f158290-6041-63f3-cd61-2c047937d9c7",
+                                "collectionId": "1f0efa55-0c3d-68e0-5414-b0d13fbc58e4",
+                                "firstBuyerNb": 35,
+                                "GSIN1PK": "USR#google_101848755527710938761#CRD",
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/1f0efa55-0c3d-68e0-5414-b0d13fbc58e4/CardMetadataImage/1efc9ae5-9eec-6f10-ad23-85acb94f820a/2/original.png?1768233223689",
+                                    "urlThumbnail": "https://media.app.genezys.xyz/1f0efa55-0c3d-68e0-5414-b0d13fbc58e4/CardMetadataImage/1efc9ae5-9eec-6f10-ad23-85acb94f820a/2/thumbnail.jpeg?1768233226914",
+                                    "urlFull": "https://media.app.genezys.xyz/1f0efa55-0c3d-68e0-5414-b0d13fbc58e4/CardMetadataImage/1efc9ae5-9eec-6f10-ad23-85acb94f820a/2/full.jpeg?1768233225162"
+                                },
+                                "characteristics": [
+                                    {
+                                        "name": "Reasoning",
+                                        "value": 4
+                                    },
+                                    {
+                                        "name": "Power",
+                                        "value": 5
+                                    },
+                                    {
+                                        "name": "Technique",
+                                        "value": 10
+                                    },
+                                    {
+                                        "name": "Vision",
+                                        "value": 1
+                                    }
+                                ],
+                                "clientId": "1efc9ae5-9eec-6f10-ad23-85acb94f820a",
+                                "level": "star",
+                                "ownerInterractionStatus": "Revealed",
+                                "created": "2026-05-25T11:01:04.405Z",
+                                "activeBuffs": [
+                                    {
+                                        "endDate": "2026-06-25T08:10:52.937Z",
+                                        "boostedCharacteristics": [],
+                                        "itemName": "Eau minérale 🧊"
+                                    }
+                                ],
+                                "_type": "Card",
+                                "health": {
+                                    "lastChange": "2026-07-22T11:50:53.092Z",
+                                    "points": 90
+                                },
+                                "GSI3PK": "USR#google_101848755527710938761",
+                                "mintedDate": "2026-05-25T11:01:04.229Z",
+                                "GSI2PK": "USR#google_101848755527710938761#CRD",
+                                "cardTitle": "Corentin Moutet",
+                                "userId": "google_101848755527710938761",
+                                "athleteCategory": "athlete",
+                                "cardMetadataId": "1efc9ae5-9eec-6f10-ad23-85acb94f820a",
+                                "boosterId": "1f158290-6041-63f0-05ba-94aad6ee6d5d",
+                                "GSI1PK": "COL#1f0efa55-0c3d-68e0-5414-b0d13fbc58e4",
+                                "reserved": {
+                                    "service": "fantasy-game",
+                                    "customData": "Deck"
+                                },
+                                "listingPrices": [],
+                                "PK": "COL#1f0efa55-0c3d-68e0-5414-b0d13fbc58e4#CRD",
+                                "GSIN1SK": 515,
+                                "sport": "TEN",
+                                "updated": "2026-07-22T11:50:53.092Z",
+                                "rarity": "Epic"
+                            }
+                        },
+                        {
+                            "score": 796,
+                            "card": {
+                                "acquisitionDate": "2026-05-10T16:31:24.173Z",
+                                "clientName": "Éric Perrot",
+                                "baseScore": 513,
+                                "collectionName": "Saison 1 - 2025/26",
+                                "number": 658,
+                                "GSI3SK": "CRD#1f14c8da-f653-6020-71cb-077f97a3c431",
+                                "GSI2SK": "COL#1f0d5a2a-718e-6450-4d0a-b208cc23e98c#1-UNIQ#RAR#97#ID#1f14c8da-f653-6020-71cb-077f97a3c431",
+                                "GSI1SK": "CRD#1-UNIQ#1f14c8da-f653-6020-71cb-077f97a3c431",
+                                "SK": "CRD#1f14c8da-f653-6020-71cb-077f97a3c431#1-UNIQ",
+                                "transactionsHistory": [
+                                    {
+                                        "ownerId": "google_101848755527710938761",
+                                        "transactionId": "1f14c8da-f5a5-6ab0-617e-eaca5a28fa7a"
+                                    }
+                                ],
+                                "baseLanguage": "FR",
+                                "inNbDeckUsage": 2,
+                                "id": "1f14c8da-f653-6020-71cb-077f97a3c431",
+                                "collectionId": "1f0d5a2a-718e-6450-4d0a-b208cc23e98c",
+                                "firstBuyerNb": 55,
+                                "GSIN1PK": "USR#google_101848755527710938761#CRD",
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/1f0d5a2a-718e-6450-4d0a-b208cc23e98c/CardMetadataImage/1f0d5a14-a26e-67c0-00f8-60c8b58b411e/2/original.png?1765355626145",
+                                    "urlThumbnail": "https://media.app.genezys.xyz/1f0d5a2a-718e-6450-4d0a-b208cc23e98c/CardMetadataImage/1f0d5a14-a26e-67c0-00f8-60c8b58b411e/2/thumbnail.jpeg?1765355627424",
+                                    "urlFull": "https://media.app.genezys.xyz/1f0d5a2a-718e-6450-4d0a-b208cc23e98c/CardMetadataImage/1f0d5a14-a26e-67c0-00f8-60c8b58b411e/2/full.jpeg?1765355627673"
+                                },
+                                "characteristics": [
+                                    {
+                                        "name": "Power",
+                                        "value": 3
+                                    },
+                                    {
+                                        "name": "Technique",
+                                        "value": 8
+                                    },
+                                    {
+                                        "name": "Endurance",
+                                        "value": 4
+                                    },
+                                    {
+                                        "name": "Resilience",
+                                        "value": 4
+                                    }
+                                ],
+                                "clientId": "1f0d5a14-a26e-67c0-00f8-60c8b58b411e",
+                                "level": "star",
+                                "ownerInterractionStatus": "Revealed",
+                                "created": "2026-05-10T16:31:24.205Z",
+                                "activeBuffs": [
+                                    {
+                                        "endDate": "2026-06-16T21:16:56.055Z",
+                                        "boostedCharacteristics": [],
+                                        "itemName": "Eau minérale 🧊"
+                                    },
+                                    {
+                                        "endDate": "2026-06-16T21:16:59.656Z",
+                                        "boostedCharacteristics": [],
+                                        "itemName": "Eau minérale 🧊"
+                                    }
+                                ],
+                                "_type": "Card",
+                                "health": {
+                                    "lastChange": "2026-07-22T11:50:53.093Z",
+                                    "points": 87
+                                },
+                                "GSI3PK": "USR#google_101848755527710938761",
+                                "mintedDate": "2026-05-10T16:31:24.173Z",
+                                "GSI2PK": "USR#google_101848755527710938761#CRD",
+                                "cardTitle": "Éric Perrot",
+                                "userId": "google_101848755527710938761",
+                                "athleteCategory": "athlete",
+                                "cardMetadataId": "1f0d5a14-a26e-67c0-00f8-60c8b58b411e",
+                                "GSI1PK": "COL#1f0d5a2a-718e-6450-4d0a-b208cc23e98c",
+                                "reserved": {
+                                    "service": "fantasy-game",
+                                    "customData": "Deck"
+                                },
+                                "listingPrices": [],
+                                "PK": "COL#1f0d5a2a-718e-6450-4d0a-b208cc23e98c#CRD",
+                                "GSIN1SK": 513,
+                                "sport": "BIA",
+                                "updated": "2026-07-22T11:50:53.093Z",
+                                "rarity": "Epic"
+                            }
+                        },
+                        {
+                            "score": 894,
+                            "card": {
+                                "acquisitionDate": "2026-05-06T13:52:26.943Z",
+                                "clientName": "Morgan Charrière",
+                                "baseScore": 511,
+                                "collectionName": "S1 - 2025",
+                                "number": 3303,
+                                "GSI3SK": "CRD#CHARRIERE-c5940a-c6f",
+                                "GSI2SK": "COL#1efdee8a-0036-6250-b241-e46ca042a6bb#1-UNIQ#RAR#97#ID#CHARRIERE-c5940a-c6f",
+                                "GSI1SK": "CRD#1-UNIQ#CHARRIERE-c5940a-c6f",
+                                "SK": "CRD#CHARRIERE-c5940a-c6f#1-UNIQ",
+                                "transactionsHistory": [
+                                    {
+                                        "ownerId": "030b733e-5768-476a-9d0c-5deaf29c218c",
+                                        "transactionId": "1effe857-77b2-67c0-4608-a62c47b4b3cd"
+                                    },
+                                    {
+                                        "ownerId": "bde97ff9-ceac-4e9a-8cbf-9ba32c521fec",
+                                        "transactionId": "1f0c06ef-8b6c-6af0-51bf-7a9981dfe9e8"
+                                    },
+                                    {
+                                        "ownerId": "google_111871451584784508553",
+                                        "transactionId": "1f0de91e-17c4-6f90-b0ca-fad10f4c7a81"
+                                    },
+                                    {
+                                        "ownerId": "bde97ff9-ceac-4e9a-8cbf-9ba32c521fec",
+                                        "transactionId": "1f13d85b-a53b-69f0-cd78-493060bfaf14"
+                                    },
+                                    {
+                                        "ownerId": "google_101848755527710938761",
+                                        "transactionId": "1f14952d-0c39-62e0-7398-996741afaa18"
+                                    }
+                                ],
+                                "baseLanguage": "FR",
+                                "inNbDeckUsage": 2,
+                                "id": "CHARRIERE-c5940a-c6f",
+                                "collectionId": "1efdee8a-0036-6250-b241-e46ca042a6bb",
+                                "firstBuyerNb": 53,
+                                "GSIN1PK": "USR#google_101848755527710938761#CRD",
+                                "image": {
+                                    "urlOriginal": "https://prod-document-service-genezys-documents-bucket.s3.eu-west-3.amazonaws.com/1efdee8a-0036-6250-b241-e46ca042a6bb/CardMetadataImage/1efdee75-9928-6180-9ff6-4818e2d2cff2/2/original.png?1738249211115",
+                                    "urlThumbnail": "https://prod-document-service-genezys-documents-bucket.s3.eu-west-3.amazonaws.com/1efdee8a-0036-6250-b241-e46ca042a6bb/CardMetadataImage/1efdee75-9928-6180-9ff6-4818e2d2cff2/2/thumbnail.jpeg?1738249212737",
+                                    "urlFull": "https://prod-document-service-genezys-documents-bucket.s3.eu-west-3.amazonaws.com/1efdee8a-0036-6250-b241-e46ca042a6bb/CardMetadataImage/1efdee75-9928-6180-9ff6-4818e2d2cff2/2/full.jpeg?1738249212862"
+                                },
+                                "characteristics": [
+                                    {
+                                        "name": "Power",
+                                        "value": 7
+                                    },
+                                    {
+                                        "name": "Endurance",
+                                        "value": 2
+                                    },
+                                    {
+                                        "name": "Reflexes",
+                                        "value": 4
+                                    },
+                                    {
+                                        "name": "Resilience",
+                                        "value": 5
+                                    }
+                                ],
+                                "clientId": "1efdee75-9928-6180-9ff6-4818e2d2cff2",
+                                "level": "star",
+                                "ownerInterractionStatus": "Revealed",
+                                "created": "2025-09-29T13:19:25.569Z",
+                                "activeBuffs": [
+                                    {
+                                        "endDate": "2026-06-23T19:47:21.420Z",
+                                        "boostedCharacteristics": [],
+                                        "itemName": "Eau minérale 🧊"
+                                    },
+                                    {
+                                        "endDate": "2026-06-23T19:47:26.220Z",
+                                        "boostedCharacteristics": [],
+                                        "itemName": "Eau minérale 🧊"
+                                    }
+                                ],
+                                "_type": "Card",
+                                "health": {
+                                    "lastChange": "2026-07-22T11:50:53.094Z",
+                                    "points": 91
+                                },
+                                "GSI3PK": "USR#google_101848755527710938761",
+                                "mintedDate": "2025-03-11T14:31:12.000Z",
+                                "GSI2PK": "USR#google_101848755527710938761#CRD",
+                                "cardTitle": "Morgan Charrière",
+                                "userId": "google_101848755527710938761",
+                                "athleteCategory": "athlete",
+                                "cardMetadataId": "1efdee75-9928-6180-9ff6-4818e2d2cff2",
+                                "boosterId": "1effe858-e048-60e0-eaee-0cda169436e1",
+                                "GSI1PK": "COL#1efdee8a-0036-6250-b241-e46ca042a6bb",
+                                "reserved": {
+                                    "service": "fantasy-game",
+                                    "customData": "Deck"
+                                },
+                                "listingPrices": [],
+                                "PK": "COL#1efdee8a-0036-6250-b241-e46ca042a6bb#CRD",
+                                "GSIN1SK": 511,
+                                "sport": "CBT",
+                                "updated": "2026-07-22T11:50:53.094Z",
+                                "rarity": "Epic"
+                            }
+                        },
+                        {
+                            "score": 702,
+                            "card": {
+                                "acquisitionDate": "2026-07-22T08:42:46.607Z",
+                                "clientName": "Earvin Ngapeth",
+                                "baseScore": 319,
+                                "collectionName": "Saison 2 - 2025/26",
+                                "number": 1081,
+                                "GSI3SK": "CRD#1f185a95-04bf-6b02-1440-c9b3e155d0f4",
+                                "GSI2SK": "COL#1f0c9d14-5169-60e0-a792-4584d6e88d57#1-UNIQ#RAR#99#ID#1f185a95-04bf-6b02-1440-c9b3e155d0f4",
+                                "GSI1SK": "CRD#1-UNIQ#1f185a95-04bf-6b02-1440-c9b3e155d0f4",
+                                "SK": "CRD#1f185a95-04bf-6b02-1440-c9b3e155d0f4#1-UNIQ",
+                                "transactionsHistory": [
+                                    {
+                                        "ownerId": "google_101848755527710938761",
+                                        "transactionId": "1f185a94-ebf6-6790-80f1-ff5b8b026ddb"
+                                    }
+                                ],
+                                "baseLanguage": "FR",
+                                "inNbDeckUsage": 1,
+                                "id": "1f185a95-04bf-6b02-1440-c9b3e155d0f4",
+                                "collectionId": "1f0c9d14-5169-60e0-a792-4584d6e88d57",
+                                "firstBuyerNb": 100,
+                                "GSIN1PK": "USR#google_101848755527710938761#CRD",
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/1f0c9d14-5169-60e0-a792-4584d6e88d57/CardMetadataImage/1ef8bd00-4ffb-64e0-f0fa-f6a872ec9f67/0/original.png?1764056312264",
+                                    "urlThumbnail": "https://media.app.genezys.xyz/1f0c9d14-5169-60e0-a792-4584d6e88d57/CardMetadataImage/1ef8bd00-4ffb-64e0-f0fa-f6a872ec9f67/0/thumbnail.jpeg?1764056313292",
+                                    "urlFull": "https://media.app.genezys.xyz/1f0c9d14-5169-60e0-a792-4584d6e88d57/CardMetadataImage/1ef8bd00-4ffb-64e0-f0fa-f6a872ec9f67/0/full.jpeg?1764056313250"
+                                },
+                                "characteristics": [
+                                    {
+                                        "name": "Vision",
+                                        "value": 3
+                                    },
+                                    {
+                                        "name": "Power",
+                                        "value": 6
+                                    },
+                                    {
+                                        "name": "Balance",
+                                        "value": 5
+                                    },
+                                    {
+                                        "name": "Reflexes",
+                                        "value": 8
+                                    }
+                                ],
+                                "clientId": "1ef8bd00-4ffb-64e0-f0fa-f6a872ec9f67",
+                                "level": "star",
+                                "ownerInterractionStatus": "Revealed",
+                                "created": "2026-07-22T08:42:47.053Z",
+                                "_type": "Card",
+                                "health": {
+                                    "lastChange": "2026-07-22T11:46:51.548Z",
+                                    "points": 92
+                                },
+                                "GSI3PK": "USR#google_101848755527710938761",
+                                "mintedDate": "2026-07-22T08:42:46.607Z",
+                                "GSI2PK": "USR#google_101848755527710938761#CRD",
+                                "cardTitle": "Earvin Ngapeth",
+                                "userId": "google_101848755527710938761",
+                                "athleteCategory": "athlete",
+                                "cardMetadataId": "1ef8bd00-4ffb-64e0-f0fa-f6a872ec9f67",
+                                "boosterId": "1f185a95-04bf-6b00-16c7-a84a65deb2fc",
+                                "GSI1PK": "COL#1f0c9d14-5169-60e0-a792-4584d6e88d57",
+                                "reserved": {
+                                    "service": "fantasy-game",
+                                    "customData": "Deck"
+                                },
+                                "listingPrices": [],
+                                "PK": "COL#1f0c9d14-5169-60e0-a792-4584d6e88d57#CRD",
+                                "GSIN1SK": 319,
+                                "sport": "VOL",
+                                "updated": "2026-07-22T11:46:51.548Z",
+                                "rarity": "Limited"
+                            }
+                        },
+                        {
+                            "score": 675,
+                            "card": {
+                                "acquisitionDate": "2026-04-27T02:08:39.343Z",
+                                "clientName": "Morgan Charrière",
+                                "baseScore": 386,
+                                "collectionName": "S1 - 2025",
+                                "number": 4012,
+                                "GSI3SK": "CRD#1f0d91ec-884a-6d70-a240-7324e994c51e",
+                                "GSI2SK": "COL#1efdee8a-0036-6250-b241-e46ca042a6bb#1-UNIQ#RAR#98#ID#1f0d91ec-884a-6d70-a240-7324e994c51e",
+                                "GSI1SK": "CRD#1-UNIQ#1f0d91ec-884a-6d70-a240-7324e994c51e",
+                                "SK": "CRD#1f0d91ec-884a-6d70-a240-7324e994c51e#1-UNIQ",
+                                "transactionsHistory": [
+                                    {
+                                        "ownerId": "bde97ff9-ceac-4e9a-8cbf-9ba32c521fec",
+                                        "transactionId": "1f0d91eb-a603-6980-a9a6-c78885644c9d"
+                                    },
+                                    {
+                                        "ownerId": "2079f934-1112-46a1-b267-3e1237e6d660",
+                                        "transactionId": "1f0ec8a5-7b44-67c0-2201-c7331c4bd760"
+                                    },
+                                    {
+                                        "ownerId": "google_101848755527710938761",
+                                        "transactionId": "1f141de0-1544-60c0-4203-e612cdb805bb"
+                                    }
+                                ],
+                                "baseLanguage": "FR",
+                                "inNbDeckUsage": 1,
+                                "id": "1f0d91ec-884a-6d70-a240-7324e994c51e",
+                                "collectionId": "1efdee8a-0036-6250-b241-e46ca042a6bb",
+                                "firstBuyerNb": 53,
+                                "GSIN1PK": "USR#google_101848755527710938761#CRD",
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/1efdee8a-0036-6250-b241-e46ca042a6bb/CardMetadataImage/1efdee75-9928-6180-9ff6-4818e2d2cff2/1/original.png?1738249211576",
+                                    "urlThumbnail": "https://media.app.genezys.xyz/1efdee8a-0036-6250-b241-e46ca042a6bb/CardMetadataImage/1efdee75-9928-6180-9ff6-4818e2d2cff2/1/thumbnail.jpeg?1738249212749",
+                                    "urlFull": "https://media.app.genezys.xyz/1efdee8a-0036-6250-b241-e46ca042a6bb/CardMetadataImage/1efdee75-9928-6180-9ff6-4818e2d2cff2/1/full.jpeg?1738249214548"
+                                },
+                                "characteristics": [
+                                    {
+                                        "name": "Power",
+                                        "value": 8
+                                    },
+                                    {
+                                        "name": "Technique",
+                                        "value": 4
+                                    },
+                                    {
+                                        "name": "Reflexes",
+                                        "value": 4
+                                    },
+                                    {
+                                        "name": "Resilience",
+                                        "value": 2
+                                    }
+                                ],
+                                "clientId": "1efdee75-9928-6180-9ff6-4818e2d2cff2",
+                                "level": "star",
+                                "ownerInterractionStatus": "Revealed",
+                                "created": "2025-12-14T18:57:49.027Z",
+                                "_type": "Card",
+                                "health": {
+                                    "lastChange": "2026-07-22T11:46:51.548Z",
+                                    "points": 94
+                                },
+                                "GSI3PK": "USR#google_101848755527710938761",
+                                "mintedDate": "2025-12-14T18:57:25.301Z",
+                                "GSI2PK": "USR#google_101848755527710938761#CRD",
+                                "cardTitle": "Morgan Charrière",
+                                "userId": "google_101848755527710938761",
+                                "athleteCategory": "athlete",
+                                "cardMetadataId": "1efdee75-9928-6180-9ff6-4818e2d2cff2",
+                                "boosterId": "1f0d91ec-8848-6660-5e49-15d3f677c4c5",
+                                "GSI1PK": "COL#1efdee8a-0036-6250-b241-e46ca042a6bb",
+                                "reserved": {
+                                    "service": "fantasy-game",
+                                    "customData": "Deck"
+                                },
+                                "listingPrices": [],
+                                "PK": "COL#1efdee8a-0036-6250-b241-e46ca042a6bb#CRD",
+                                "GSIN1SK": 386,
+                                "sport": "CBT",
+                                "updated": "2026-07-22T11:46:51.548Z",
+                                "rarity": "Rare"
+                            }
+                        }
+                    ],
+                    "scoreDeck": 3870
+                },
+                "adversaryDeck": {
+                    "cardsEquipments": [
+                        {
+                            "equipment": {
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/FantasyItemDefinition/FatansyItemDefinitionImage/1f09e0c4-906e-6470-08e0-879faf11bdee/0/original.png?1759243606490",
+                                    "urlFull": "https://media.app.genezys.xyz/FantasyItemDefinition/FatansyItemDefinitionImage/1f09e0c4-906e-6470-08e0-879faf11bdee/0/full.png?1759243608099"
+                                },
+                                "description": "🩳 Le short de mobilité qui augmente ta résilience et améliore ton équilibre ⚡🤸‍♂️⚖️ ! L’atout parfait pour rester mobile et précis.",
+                                "versionHash": "12fca763aea7afcd0c9ad71da3c9ed32",
+                                "type": "equipment",
+                                "title": "Short de mobilité",
+                                "baseLanguage": "EN",
+                                "itemStats": {
+                                    "boostedCharacteristics": [
+                                        {
+                                            "name": "Resilience",
+                                            "boostPercentage": 5
+                                        },
+                                        {
+                                            "name": "Balance",
+                                            "boostPercentage": 10
+                                        }
+                                    ]
+                                },
+                                "id": "1f09e0c4-906e-6470-08e0-879faf11bdee_12fca763aea7afcd0c9ad71da3c9ed32",
+                                "definitionId": "1f09e0c4-906e-6470-08e0-879faf11bdee"
+                            },
+                            "score": 306,
+                            "card": {
+                                "acquisitionDate": "2026-06-13T06:57:59.559Z",
+                                "clientName": "Cameron Woki",
+                                "baseScore": 196,
+                                "type": "common",
+                                "collectionName": "Saison 3 - 2025/26",
+                                "number": 4,
+                                "GSI3SK": "CRD#1f166f53-6ae0-6170-1ec5-28dc2ea427d4",
+                                "GSI2SK": "COL#1f113d8f-ec39-6410-d7a8-9205f131c447#2-LINKED#TYPE#common#ID#1f166f53-6ae0-6170-1ec5-28dc2ea427d4",
+                                "GSI1SK": "CRD#2-LINKED#1f166f53-6ae0-6170-1ec5-28dc2ea427d4",
+                                "SK": "CRD#1f166f53-6ae0-6170-1ec5-28dc2ea427d4#2-LINKED",
+                                "baseLanguage": "FR",
+                                "inNbDeckUsage": 1,
+                                "id": "1f166f53-6ae0-6170-1ec5-28dc2ea427d4",
+                                "collectionId": "1f113d8f-ec39-6410-d7a8-9205f131c447",
+                                "GSIN1PK": "USR#google_116755643509038501378#CRD",
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/1f113d8f-ec39-6410-d7a8-9205f131c447/CardMetadataImageCommon/1eea5af9-35fc-6110-2435-3f38004b5002/original.png?1772195882263",
+                                    "urlThumbnail": "https://media.app.genezys.xyz/1f113d8f-ec39-6410-d7a8-9205f131c447/CardMetadataImageCommon/1eea5af9-35fc-6110-2435-3f38004b5002/thumbnail.jpeg?1772195885404",
+                                    "urlFull": "https://media.app.genezys.xyz/1f113d8f-ec39-6410-d7a8-9205f131c447/CardMetadataImageCommon/1eea5af9-35fc-6110-2435-3f38004b5002/full.jpeg?1772195885502"
+                                },
+                                "characteristics": [
+                                    {
+                                        "name": "Power",
+                                        "value": 10
+                                    },
+                                    {
+                                        "name": "Vision",
+                                        "value": 3
+                                    },
+                                    {
+                                        "name": "Endurance",
+                                        "value": 4
+                                    },
+                                    {
+                                        "name": "Resilience",
+                                        "value": 6
+                                    }
+                                ],
+                                "clientId": "1eea5af9-35fc-6110-2435-3f38004b5002",
+                                "level": "star",
+                                "ownerInterractionStatus": "Revealed",
+                                "created": "2026-06-13T06:57:59.560Z",
+                                "_type": "LinkedUserCard",
+                                "health": {
+                                    "lastChange": "2026-06-23T15:16:16.738Z",
+                                    "points": 60
+                                },
+                                "GSI3PK": "USR#google_116755643509038501378",
+                                "GSI2PK": "USR#google_116755643509038501378#CRD",
+                                "cardTitle": "Cameron Woki",
+                                "userId": "google_116755643509038501378",
+                                "athleteCategory": "athlete",
+                                "cardMetadataId": "1eea5af9-35fc-6110-2435-3f38004b5002",
+                                "boosterId": "1f166f53-69c0-6010-c7a4-f5d68da60c35",
+                                "GSI1PK": "COL#1f113d8f-ec39-6410-d7a8-9205f131c447",
+                                "PK": "COL#1f113d8f-ec39-6410-d7a8-9205f131c447#CRD",
+                                "GSIN1SK": 196,
+                                "sport": "RUG",
+                                "updated": "2026-07-01T09:33:37.387Z"
+                            }
+                        },
+                        {
+                            "equipment": {
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/FantasyItemDefinition/FatansyItemDefinitionImage/1f09e0e2-749e-63d0-c492-b7fcccb70336/0/original.png?1759244409112",
+                                    "urlFull": "https://media.app.genezys.xyz/FantasyItemDefinition/FatansyItemDefinitionImage/1f09e0e2-749e-63d0-c492-b7fcccb70336/0/full.png?1759244412349"
+                                },
+                                "description": "Équipe ta Fancard d'un maillot transpirant pour améliorer la technique de ton athlète. 🏃‍♂️",
+                                "versionHash": "62f77806f6a6553cc014b2c58a7e60e1",
+                                "type": "equipment",
+                                "title": "Maillot d'entrainement",
+                                "baseLanguage": "EN",
+                                "itemStats": {
+                                    "boostedCharacteristics": [
+                                        {
+                                            "name": "Technique",
+                                            "boostPercentage": 10
+                                        }
+                                    ]
+                                },
+                                "id": "1f09e0e2-749e-63d0-c492-b7fcccb70336_62f77806f6a6553cc014b2c58a7e60e1",
+                                "definitionId": "1f09e0e2-749e-63d0-c492-b7fcccb70336"
+                            },
+                            "score": 580,
+                            "card": {
+                                "acquisitionDate": "2026-05-27T17:32:29.494Z",
+                                "clientName": "Morgan Charrière",
+                                "baseScore": 319,
+                                "collectionName": "Saison 2 - 2026/27",
+                                "number": 233,
+                                "GSI3SK": "CRD#1f159f20-9245-6610-ff25-858ea4d6e44f",
+                                "GSI2SK": "COL#1f12378b-bcfc-6700-ba07-f514e79a0d66#1-UNIQ#RAR#99#ID#1f159f20-9245-6610-ff25-858ea4d6e44f",
+                                "GSI1SK": "CRD#1-UNIQ#1f159f20-9245-6610-ff25-858ea4d6e44f",
+                                "SK": "CRD#1f159f20-9245-6610-ff25-858ea4d6e44f#1-UNIQ",
+                                "transactionsHistory": [
+                                    {
+                                        "ownerId": "google_116755643509038501378",
+                                        "transactionId": "1f159f20-9066-6dd0-e490-6bd6d62f6542"
+                                    }
+                                ],
+                                "baseLanguage": "FR",
+                                "inNbDeckUsage": 1,
+                                "id": "1f159f20-9245-6610-ff25-858ea4d6e44f",
+                                "collectionId": "1f12378b-bcfc-6700-ba07-f514e79a0d66",
+                                "firstBuyerNb": 45,
+                                "GSIN1PK": "USR#google_116755643509038501378#CRD",
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/1f12378b-bcfc-6700-ba07-f514e79a0d66/CardMetadataImage/1efdee75-9928-6180-9ff6-4818e2d2cff2/0/original.png?1773913895351",
+                                    "urlThumbnail": "https://media.app.genezys.xyz/1f12378b-bcfc-6700-ba07-f514e79a0d66/CardMetadataImage/1efdee75-9928-6180-9ff6-4818e2d2cff2/0/thumbnail.jpeg?1773913896945",
+                                    "urlFull": "https://media.app.genezys.xyz/1f12378b-bcfc-6700-ba07-f514e79a0d66/CardMetadataImage/1efdee75-9928-6180-9ff6-4818e2d2cff2/0/full.jpeg?1773913896834"
+                                },
+                                "characteristics": [
+                                    {
+                                        "name": "Power",
+                                        "value": 10
+                                    },
+                                    {
+                                        "name": "Technique",
+                                        "value": 5
+                                    },
+                                    {
+                                        "name": "Reflexes",
+                                        "value": 5
+                                    },
+                                    {
+                                        "name": "Resilience",
+                                        "value": 2
+                                    }
+                                ],
+                                "clientId": "1efdee75-9928-6180-9ff6-4818e2d2cff2",
+                                "level": "star",
+                                "ownerInterractionStatus": "Revealed",
+                                "created": "2026-05-27T17:32:29.615Z",
+                                "activeBuffs": [
+                                    {
+                                        "endDate": "2026-06-23T06:48:36.301Z",
+                                        "boostedCharacteristics": [],
+                                        "itemName": "Eau minérale 🧊"
+                                    }
+                                ],
+                                "_type": "Card",
+                                "health": {
+                                    "lastChange": "2026-06-23T15:16:16.739Z",
+                                    "points": 81
+                                },
+                                "GSI3PK": "USR#google_116755643509038501378",
+                                "mintedDate": "2026-05-27T17:32:29.494Z",
+                                "GSI2PK": "USR#google_116755643509038501378#CRD",
+                                "cardTitle": "Morgan Charrière",
+                                "userId": "google_116755643509038501378",
+                                "athleteCategory": "athlete",
+                                "cardMetadataId": "1efdee75-9928-6180-9ff6-4818e2d2cff2",
+                                "GSI1PK": "COL#1f12378b-bcfc-6700-ba07-f514e79a0d66",
+                                "reserved": {
+                                    "service": "fantasy-game",
+                                    "customData": "Deck"
+                                },
+                                "listingPrices": [],
+                                "PK": "COL#1f12378b-bcfc-6700-ba07-f514e79a0d66#CRD",
+                                "GSIN1SK": 319,
+                                "sport": "CBT",
+                                "updated": "2026-07-01T09:33:37.389Z",
+                                "rarity": "Limited"
+                            }
+                        },
+                        {
+                            "score": 491,
+                            "card": {
+                                "acquisitionDate": "2026-05-10T17:08:46.113Z",
+                                "clientName": "Éric Perrot",
+                                "baseScore": 317,
+                                "collectionName": "Saison 1 - 2025/26",
+                                "number": 639,
+                                "GSI3SK": "CRD#1f14c92e-7b28-6a90-4121-8c4a8e423d52",
+                                "GSI2SK": "COL#1f0d5a2a-718e-6450-4d0a-b208cc23e98c#1-UNIQ#RAR#99#ID#1f14c92e-7b28-6a90-4121-8c4a8e423d52",
+                                "GSI1SK": "CRD#1-UNIQ#1f14c92e-7b28-6a90-4121-8c4a8e423d52",
+                                "SK": "CRD#1f14c92e-7b28-6a90-4121-8c4a8e423d52#1-UNIQ",
+                                "transactionsHistory": [
+                                    {
+                                        "ownerId": "google_116755643509038501378",
+                                        "transactionId": "1f14c92e-7aa4-6d30-d753-8218ff0027e8"
+                                    }
+                                ],
+                                "baseLanguage": "FR",
+                                "inNbDeckUsage": 1,
+                                "id": "1f14c92e-7b28-6a90-4121-8c4a8e423d52",
+                                "collectionId": "1f0d5a2a-718e-6450-4d0a-b208cc23e98c",
+                                "firstBuyerNb": 110,
+                                "GSIN1PK": "USR#google_116755643509038501378#CRD",
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/1f0d5a2a-718e-6450-4d0a-b208cc23e98c/CardMetadataImage/1f0d5a14-a26e-67c0-00f8-60c8b58b411e/0/original.png?1765355624251",
+                                    "urlThumbnail": "https://media.app.genezys.xyz/1f0d5a2a-718e-6450-4d0a-b208cc23e98c/CardMetadataImage/1f0d5a14-a26e-67c0-00f8-60c8b58b411e/0/thumbnail.jpeg?1765355626061",
+                                    "urlFull": "https://media.app.genezys.xyz/1f0d5a2a-718e-6450-4d0a-b208cc23e98c/CardMetadataImage/1f0d5a14-a26e-67c0-00f8-60c8b58b411e/0/full.jpeg?1765355626031"
+                                },
+                                "characteristics": [
+                                    {
+                                        "name": "Power",
+                                        "value": 2
+                                    },
+                                    {
+                                        "name": "Technique",
+                                        "value": 10
+                                    },
+                                    {
+                                        "name": "Endurance",
+                                        "value": 4
+                                    },
+                                    {
+                                        "name": "Resilience",
+                                        "value": 5
+                                    }
+                                ],
+                                "clientId": "1f0d5a14-a26e-67c0-00f8-60c8b58b411e",
+                                "level": "star",
+                                "ownerInterractionStatus": "Revealed",
+                                "created": "2026-05-10T17:08:46.173Z",
+                                "activeBuffs": [
+                                    {
+                                        "endDate": "2026-06-22T08:01:07.305Z",
+                                        "boostedCharacteristics": [],
+                                        "itemName": "Eau minérale 🧊"
+                                    },
+                                    {
+                                        "endDate": "2026-06-23T06:47:12.786Z",
+                                        "boostedCharacteristics": [],
+                                        "itemName": "Eau minérale 🧊"
+                                    }
+                                ],
+                                "_type": "Card",
+                                "health": {
+                                    "lastChange": "2026-06-23T15:16:16.796Z",
+                                    "points": 83
+                                },
+                                "GSI3PK": "USR#google_116755643509038501378",
+                                "mintedDate": "2026-05-10T17:08:46.113Z",
+                                "GSI2PK": "USR#google_116755643509038501378#CRD",
+                                "cardTitle": "Éric Perrot",
+                                "userId": "google_116755643509038501378",
+                                "athleteCategory": "athlete",
+                                "cardMetadataId": "1f0d5a14-a26e-67c0-00f8-60c8b58b411e",
+                                "GSI1PK": "COL#1f0d5a2a-718e-6450-4d0a-b208cc23e98c",
+                                "reserved": {
+                                    "service": "fantasy-game",
+                                    "customData": "Deck"
+                                },
+                                "listingPrices": [],
+                                "PK": "COL#1f0d5a2a-718e-6450-4d0a-b208cc23e98c#CRD",
+                                "GSIN1SK": 317,
+                                "sport": "BIA",
+                                "updated": "2026-07-01T09:33:37.389Z",
+                                "rarity": "Limited"
+                            }
+                        },
+                        {
+                            "score": 297,
+                            "card": {
+                                "acquisitionDate": "2026-06-12T07:10:34.958Z",
+                                "clientName": "Cameron Woki",
+                                "baseScore": 192,
+                                "type": "common",
+                                "collectionName": "Saison 3 - 2025/26",
+                                "number": 3,
+                                "GSI3SK": "CRD#1f1662dc-e84f-6ee0-e4b5-b105e5a72f0c",
+                                "GSI2SK": "COL#1f113d8f-ec39-6410-d7a8-9205f131c447#2-LINKED#TYPE#common#ID#1f1662dc-e84f-6ee0-e4b5-b105e5a72f0c",
+                                "GSI1SK": "CRD#2-LINKED#1f1662dc-e84f-6ee0-e4b5-b105e5a72f0c",
+                                "SK": "CRD#1f1662dc-e84f-6ee0-e4b5-b105e5a72f0c#2-LINKED",
+                                "baseLanguage": "FR",
+                                "inNbDeckUsage": 1,
+                                "id": "1f1662dc-e84f-6ee0-e4b5-b105e5a72f0c",
+                                "collectionId": "1f113d8f-ec39-6410-d7a8-9205f131c447",
+                                "GSIN1PK": "USR#google_116755643509038501378#CRD",
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/1f113d8f-ec39-6410-d7a8-9205f131c447/CardMetadataImageCommon/1eea5af9-35fc-6110-2435-3f38004b5002/original.png?1772195882263",
+                                    "urlThumbnail": "https://media.app.genezys.xyz/1f113d8f-ec39-6410-d7a8-9205f131c447/CardMetadataImageCommon/1eea5af9-35fc-6110-2435-3f38004b5002/thumbnail.jpeg?1772195885404",
+                                    "urlFull": "https://media.app.genezys.xyz/1f113d8f-ec39-6410-d7a8-9205f131c447/CardMetadataImageCommon/1eea5af9-35fc-6110-2435-3f38004b5002/full.jpeg?1772195885502"
+                                },
+                                "characteristics": [
+                                    {
+                                        "name": "Power",
+                                        "value": 10
+                                    },
+                                    {
+                                        "name": "Vision",
+                                        "value": 1
+                                    },
+                                    {
+                                        "name": "Endurance",
+                                        "value": 4
+                                    },
+                                    {
+                                        "name": "Resilience",
+                                        "value": 6
+                                    }
+                                ],
+                                "clientId": "1eea5af9-35fc-6110-2435-3f38004b5002",
+                                "level": "star",
+                                "ownerInterractionStatus": "Revealed",
+                                "created": "2026-06-12T07:10:34.958Z",
+                                "_type": "LinkedUserCard",
+                                "health": {
+                                    "lastChange": "2026-06-23T15:16:16.797Z",
+                                    "points": 72
+                                },
+                                "GSI3PK": "USR#google_116755643509038501378",
+                                "GSI2PK": "USR#google_116755643509038501378#CRD",
+                                "cardTitle": "Cameron Woki",
+                                "userId": "google_116755643509038501378",
+                                "athleteCategory": "athlete",
+                                "cardMetadataId": "1eea5af9-35fc-6110-2435-3f38004b5002",
+                                "boosterId": "1f1662dc-e7bb-6010-afba-791949a658e0",
+                                "GSI1PK": "COL#1f113d8f-ec39-6410-d7a8-9205f131c447",
+                                "PK": "COL#1f113d8f-ec39-6410-d7a8-9205f131c447#CRD",
+                                "GSIN1SK": 192,
+                                "sport": "RUG",
+                                "updated": "2026-07-01T09:33:37.379Z"
+                            }
+                        },
+                        {
+                            "equipment": {
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/FantasyItemDefinition/FatansyItemDefinitionImage/1f1488a8-cebd-6af0-bb19-923ae7e160d7/0/original.png?1777989537818",
+                                    "urlFull": "https://media.app.genezys.xyz/FantasyItemDefinition/FatansyItemDefinitionImage/1f1488a8-cebd-6af0-bb19-923ae7e160d7/0/full.png?1777989541773"
+                                },
+                                "description": "Équipe ta Fancard d'une casquette Genezys pour améliorer la technique de ton athlète. 🏃‍♂️",
+                                "versionHash": "e23dc4e0b0c651662fc01a10ce7a0f88",
+                                "type": "equipment",
+                                "title": "Casquette Genezys",
+                                "baseLanguage": "EN",
+                                "itemStats": {
+                                    "boostedCharacteristics": [
+                                        {
+                                            "name": "Power",
+                                            "boostPercentage": 5
+                                        }
+                                    ]
+                                },
+                                "id": "1f1488a8-cebd-6af0-bb19-923ae7e160d7_e23dc4e0b0c651662fc01a10ce7a0f88",
+                                "definitionId": "1f1488a8-cebd-6af0-bb19-923ae7e160d7"
+                            },
+                            "score": 302,
+                            "card": {
+                                "acquisitionDate": "2026-06-10T06:58:56.053Z",
+                                "clientName": "Matthieu Jalibert",
+                                "baseScore": 192,
+                                "type": "common",
+                                "collectionName": "AOTM 05/26",
+                                "number": 1,
+                                "GSI3SK": "CRD#1f16499d-91d0-6e50-3e38-7a187768278f",
+                                "GSI2SK": "COL#1f15e90c-709d-6d10-b9e3-1e7ed4910682#2-LINKED#TYPE#common#ID#1f16499d-91d0-6e50-3e38-7a187768278f",
+                                "GSI1SK": "CRD#2-LINKED#1f16499d-91d0-6e50-3e38-7a187768278f",
+                                "SK": "CRD#1f16499d-91d0-6e50-3e38-7a187768278f#2-LINKED",
+                                "baseLanguage": "FR",
+                                "inNbDeckUsage": 1,
+                                "id": "1f16499d-91d0-6e50-3e38-7a187768278f",
+                                "collectionId": "1f15e90c-709d-6d10-b9e3-1e7ed4910682",
+                                "GSIN1PK": "USR#google_116755643509038501378#CRD",
+                                "image": {
+                                    "urlOriginal": "https://media.app.genezys.xyz/1f15e90c-709d-6d10-b9e3-1e7ed4910682/CardMetadataImageCommon/1eef1913-0b03-63f0-eb46-c7853a105ad7/original.png?1780411250497",
+                                    "urlThumbnail": "https://media.app.genezys.xyz/1f15e90c-709d-6d10-b9e3-1e7ed4910682/CardMetadataImageCommon/1eef1913-0b03-63f0-eb46-c7853a105ad7/thumbnail.jpeg?1780411253992",
+                                    "urlFull": "https://media.app.genezys.xyz/1f15e90c-709d-6d10-b9e3-1e7ed4910682/CardMetadataImageCommon/1eef1913-0b03-63f0-eb46-c7853a105ad7/full.jpeg?1780411255161"
+                                },
+                                "characteristics": [
+                                    {
+                                        "name": "Power",
+                                        "value": 10
+                                    },
+                                    {
+                                        "name": "Vision",
+                                        "value": 1
+                                    },
+                                    {
+                                        "name": "Endurance",
+                                        "value": 4
+                                    },
+                                    {
+                                        "name": "Resilience",
+                                        "value": 6
+                                    }
+                                ],
+                                "clientId": "1eef1913-0b03-63f0-eb46-c7853a105ad7",
+                                "level": "star",
+                                "ownerInterractionStatus": "Revealed",
+                                "created": "2026-06-10T06:58:56.054Z",
+                                "_type": "LinkedUserCard",
+                                "health": {
+                                    "lastChange": "2026-06-23T15:16:16.797Z",
+                                    "points": 77
+                                },
+                                "GSI3PK": "USR#google_116755643509038501378",
+                                "GSI2PK": "USR#google_116755643509038501378#CRD",
+                                "cardTitle": "Matthieu Jalibert",
+                                "userId": "google_116755643509038501378",
+                                "athleteCategory": "athlete",
+                                "cardMetadataId": "1eef1913-0b03-63f0-eb46-c7853a105ad7",
+                                "boosterId": "1f16499d-9110-6060-42c5-2a20c13d4e8c",
+                                "GSI1PK": "COL#1f15e90c-709d-6d10-b9e3-1e7ed4910682",
+                                "PK": "COL#1f15e90c-709d-6d10-b9e3-1e7ed4910682#CRD",
+                                "GSIN1SK": 192,
+                                "sport": "RUG",
+                                "updated": "2026-07-01T09:33:37.380Z"
+                            }
+                        }
+                    ],
+                    "scoreDeck": 1976
+                },
+                "userWin": true,
+                "matchSimulation": [
+                    true,
+                    true,
+                    true,
+                    true,
+                    true
+                ],
+                "userIsChallenger": true,
+                "rewards": {
+                    "points": 15,
+                    "xp": 15
+                },
+                "created": "2026-07-22T11:51:40.011Z"
+            }
+        ],
+        "nextKey": {
+            "GSI1SK": "DIVISION#MATCH#1f170cc9-b937-6e90-2f78-1faedb0b1d9d",
+            "SK": "MATCH#1f170cc9-b937-6e90-2f78-1faedb0b1d9d",
+            "PK": "USR#google_101848755527710938761#MATCH",
+            "GSI1PK": "USR#google_101848755527710938761#MATCH#CHLGR#true"
+        }
+    }
+}

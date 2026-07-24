@@ -1,0 +1,58 @@
+{
+    "message": "Latest mission retrieved",
+    "data": {
+        "id": "1f186e1e-3c02-64e0-208c-4e5e15279fa6",
+        "templateId": "1f0d5d93-eb71-6210-33d5-1b8e3786c77f",
+        "title": "Mission du Vendredi",
+        "milestones": [
+            {
+                "actionType": "PARTICIPATE_MATCH",
+                "rewardQuantity": 1,
+                "actionQuantity": 30,
+                "id": "1f0d5d93-eb71-6211-311c-96695ce5c780",
+                "title": "Participer à 30 matchs",
+                "rewardType": "BOOSTER"
+            },
+            {
+                "actionType": "USE_EQUIPMENT",
+                "rewardQuantity": 15,
+                "actionQuantity": 2,
+                "id": "1f0d5d93-eb71-6212-2e42-60d34ce758ee",
+                "title": "Utiliser 3 équipements",
+                "rewardType": "GENPOINTS"
+            },
+            {
+                "actionType": "WIN_MATCH",
+                "rewardQuantity": 25,
+                "actionQuantity": 14,
+                "id": "1f0d5d93-eb71-6213-6a6d-a73601df7cbb",
+                "title": "Gagner 14 matchs",
+                "rewardType": "GENPOINTS"
+            },
+            {
+                "actionType": "USE_CONSUMABLE",
+                "rewardQuantity": 30,
+                "actionQuantity": 2,
+                "id": "1f0d5d93-eb71-6214-9007-f8278a0284ab",
+                "title": "Utiliser 3 consommables",
+                "rewardType": "GENPOINTS"
+            },
+            {
+                "actionType": "OPEN_GAME",
+                "rewardQuantity": 30,
+                "actionQuantity": 1,
+                "id": "1f12da46-18f6-6530-f82d-af243b52ef71",
+                "title": "Ouvrir le jeu",
+                "rewardType": "GENPOINTS"
+            }
+        ],
+        "rewardType": "CONSUMABLE",
+        "rewardQuantity": 2,
+        "fantasyItemDefinitionId": "1f09e09b-fd55-6990-d718-4fa1b8cf15ab",
+        "fantasyItemDefinitionImage": {
+            "urlOriginal": "https://media.app.genezys.xyz/FantasyItemDefinition/FatansyItemDefinitionImage/1f09e09b-fd55-6990-d718-4fa1b8cf15ab/1/original.png?1759243087298",
+            "urlFull": "https://media.app.genezys.xyz/FantasyItemDefinition/FatansyItemDefinitionImage/1f09e09b-fd55-6990-d718-4fa1b8cf15ab/1/full.png?1759243090598"
+        },
+        "baseLanguage": "EN"
+    }
+}

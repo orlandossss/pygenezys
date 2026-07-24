@@ -1,0 +1,63 @@
+{
+    "message": "user found",
+    "data": {
+        "pseudo": "TestPlayer",
+        "preferredLanguage": "FR",
+        "email": "test@example.com",
+        "id": "test-user-id-123",
+        "ownReferral": "FAKECODE01",
+        "contactInfo": {
+            "address1": "",
+            "address2": "",
+            "city": "",
+            "contactEmail": "test@example.com",
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "zipCode": ""
+        },
+        "usedReferral": {
+            "firstDistributionState": "done",
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "FAKECODE02",
+            "type": "points-program"
+        },
+        "points": {
+            "nbGems": 100,
+            "tokensToClaim": {
+                "canBeRefreshAfter": "2026-01-01T00:00:00.000Z",
+                "latestClaimedTokenPeriodId": "00000000-0000-0000-0000-000000000001",
+                "latestCountedTokenPeriodId": "00000000-0000-0000-0000-000000000002",
+                "nbActivityPointsOnGoingPeriod": 10,
+                "nbActivityPointsWaitingClaim": 5,
+                "nbTokens": 3
+            },
+            "activityPoints": 1000.0,
+            "nbPoints": 2000.0,
+            "referralCode": "FAKECODE01",
+            "nbTokens": 500.0,
+            "id": "test-user-id-123"
+        },
+        "tutorial": {
+            "forceTutorial": false,
+            "scenarios": [
+                {
+                    "scenarioId": "getting-started",
+                    "completed": true,
+                    "completedAt": "2026-01-01T00:00:00.000Z",
+                    "rewarded": true
+                }
+            ]
+        },
+        "userDetails": {
+            "sportsFollowed": ["football"],
+            "ageRange": "18-24",
+            "rewarded": true,
+            "userId": "test-user-id-123",
+            "region": "test-region",
+            "completedAt": "2026-01-01T00:00:00.000Z",
+            "sex": "unspecified",
+            "sportsPracticed": ["football"]
+        }
+    }
+}

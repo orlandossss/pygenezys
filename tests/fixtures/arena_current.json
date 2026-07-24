@@ -1,0 +1,22 @@
+{
+    "message": "arena geted",
+    "data": {
+        "id": "1f176af7-3a7b-60c0-b949-f5bc23475c07",
+        "baseLanguage": "EN",
+        "title": "Monster Block",
+        "image": {
+            "urlOriginal": "https://media.app.genezys.xyz/ArenaTheme/ArenaThemeImage/1f176af7-3a7b-60c0-b949-f5bc23475c07/original.jpg?1783063136996",
+            "urlFull": "https://media.app.genezys.xyz/ArenaTheme/ArenaThemeImage/1f176af7-3a7b-60c0-b949-f5bc23475c07/full.png?1783063138490"
+        },
+        "publishStatus": "3-current",
+        "startAt": "2026-07-19T22:00:00.000Z",
+        "endAt": "2026-07-26T22:00:00.000Z",
+        "levels": [
+            "star"
+        ],
+        "characteristics": [
+            "Balance",
+            "Reflexes"
+        ]
+    }
+}

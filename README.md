@@ -1,2 +1,4 @@
 # pygenezys
-Genezys unofficial librairy
+
+An unofficial Python client for [Genezys](https://app.genezys.xyz).
+

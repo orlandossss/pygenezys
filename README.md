@@ -49,28 +49,115 @@ client.set_token("your-new-token-here")
 
 ## Available resources
 
-Each resource is namespaced on the client and mirrors a Genezys feature area:
+Each resource is namespaced on the client and mirrors a Genezys feature area.
+Methods marked **⚠ mutates** change your live account state (deck or match
+queue) instead of just reading data — use them deliberately.
 
-| Resource | Examples |
-|---|---|
-| `client.user` | `get_username()`, `get_gnz()`, `get_gems()`, `get_user_id()` |
-| `client.cup` | `get_available_cups_id()`, `get_available_cups_info()` |
-| `client.arena` | `get_arena_info()` |
-| `client.average_price` | `average_prices()` |
-| `client.challenges` | `get_challenges_info()` |
-| `client.deck` | `build_deck_division(card_info)`, `build_deck_commun_cup(card_info)`, etc. |
-| `client.match` | `run_division_match()`, `run_cup_match(cup_id)` |
-| `client.match_history` | `get_match_history(numberof_matches=10)` |
-| `client.mission` | `get_missions()` |
-| `client.my_cards` | `get_my_cards(order='desc', sortBy='baseScore', max_results=20)` |
-| `client.market` | `get_market(order='desc', sortBy='date', max_results=20)` |
-| `client.ranking` | `cup_leaderboard(cup_id, max_results=10)`, `division_leaderboard(max_results)` |
-| `client.rewards` | `get_daily_rewards_info()`, `get_missions_info()` |
-| `client.transaction_history` | `get_transaction_history(numberof_matches=10)` |
+### `client.user`
 
-`client.deck.build_deck_*()` and `client.match.run_*_match()` mutate your
-real account state (they change your live deck / queue a real match) — use
-them deliberately, they make real action.
+| Method | Takes | Returns |
+|---|---|---|
+| `get_username()` | — | `str` — the account's display name (pseudo). |
+| `get_gnz()` | — | `int` — GNZ token balance. |
+| `get_gems()` | — | `int` — gem balance. |
+| `get_activity_points()` | — | `int` — activity points earned this period, pending claim. |
+| `get_airdrop()` | — | `int` — tokens pending claim from the airdrop. |
+| `get_user_id()` | — | `str` — internal user ID. |
+| `get_all_info()` | — | `dict` — full raw `/users/connected` response. |
+
+### `client.arena`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `get_arena_info()` | — | `(name, boosted_levels, boosted_characteristics)` — `name: str` is the current arena's title; `boosted_levels: list[str]` are the card levels (e.g. `"talent"`, `"champion"`, `"star"`) scored favorably this period; `boosted_characteristics: list[str]` are the characteristic names (e.g. `"Power"`, `"Technique"`) scored favorably this period. |
+
+### `client.average_price`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `average_prices()` | — | `(limited_price, rare_price, epic_price, legendary_price)` — each a `float`, the average marketplace sale price for that rarity. |
+
+### `client.challenges`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `get_challenges_info()` | — | `list[dict]` — one entry per active challenge: `{name, athlete, total_entries, start_date, end_date}`. |
+
+### `client.cup`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `get_available_cups_id()` | — | `list[str]` — IDs of currently available cups. |
+| `get_available_cups_info()` | — | `list[dict]` — one entry per cup: `{id: str, accepted_rarities: list[str]}` (e.g. `["common", "Limited"]`). |
+| `get_all_info()` | — | `dict` — full raw `/cups` response. |
+
+### `client.deck`
+
+Every `build_deck_*` method takes the same input and returns the same shape;
+they differ only in which league/cup tier they submit to. **⚠ mutates** —
+each call overwrites your live deck for that league/cup.
+
+| Method | Takes | Returns |
+|---|---|---|
+| `build_deck_division(card_info)` | `card_info: list[dict]` — cards to field, as returned by `client.my_cards.get_my_cards()` (each needs at least `id` and `collectionId`, plus an optional `equipmentId`) | `str` — the API's response message. |
+| `build_deck_commun_cup(card_info)` | same as above | `str` |
+| `build_deck_limited_cup(card_info)` | same as above | `str` |
+| `build_deck_rare_cup(card_info)` | same as above | `str` |
+| `build_deck_epic_cup(card_info)` | same as above | `str` |
+| `build_deck_legendary_cup(card_info)` | same as above | `str` |
+
+### `client.match`
+
+**⚠ mutates** — both methods queue/play a real match on your account.
+
+| Method | Takes | Returns |
+|---|---|---|
+| `run_division_match()` | — | `dict` — raw API response (empty on success). |
+| `run_cup_match(cup_id)` | `cup_id: str` — a cup ID from `client.cup.get_available_cups_id()` | `dict` — raw API response (empty on success). |
+
+### `client.match_history`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `get_match_history(numberof_matches=10)` | `numberof_matches: int` — how many past matches to fetch | `list[dict]` — one entry per match: `{date, detail_match, victory: bool, opponnent_name, opponent_score, opponent_id, user_score, userdeck, opponentdeck}`. `userdeck`/`opponentdeck` are each `list[dict]` of `{card_name, score, health}`. |
+
+### `client.mission`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `get_missions()` | — | `(all_missions_rewards, missions_info)` — `all_missions_rewards: [reward_type, reward_quantity]` for clearing every daily mission; `missions_info: list[dict]` is one entry per mission: `{title, reward_quantity, action_quantity, reward_type}`. |
+
+### `client.my_cards`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `get_my_cards(order='desc', sortBy='baseScore', max_results=20)` | `order: str`, `sortBy: str`, `max_results: int` | `dict` — raw response; cards are at `["data"]["cardsList"]`. Each card has `rarity` (rarity-tier cards) or `type: "common"` (commons, no `rarity` key), plus `level`, `health.points`, `characteristics`, `baseScore`, etc. |
+
+### `client.market`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `get_market(order='desc', sortBy='date', max_results=20)` | `order: str`, `sortBy: str`, `max_results: int` | `dict` — raw response; listings are at `["data"]["listings"]`, with `["data"]["nextKey"]` for pagination. |
+
+### `client.ranking`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `cup_leaderboard(cup_id, max_results=10)` | `cup_id: str`, `max_results: int` | `(own_info, players)` — `own_info: dict` is `{score, matchplayed, position}` for the current user; `players: list[dict]` is the top entries, each `{score, name, userId, matchplayed, position}`. |
+| `division_leaderboard(max_results)` | `max_results: int` | `(own_info, players)` — `own_info: dict` is `{score, matchplayed, position, division_rank}`; `players` has the same shape as above. |
+
+### `client.rewards`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `get_daily_rewards_info()` | — | `(id, reward_type, reward_quantity)` — the current daily reward's ID, type, and quantity. |
+| `get_missions_info()` | — | `list[dict]` — one entry per daily mission (`{title, reward_quantity, action_quantity, reward_type}`), plus a trailing entry for the "finish every mission" bonus (`{title, reward_quantity, reward_type}`, no `action_quantity`). |
+
+### `client.transaction_history`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `get_transaction_history(numberof_matches=10)` | `numberof_matches: int` — how many past transactions to fetch | `list[dict]` — one entry per transaction: `{date, type, details}`. |
 
 ## Forms of answers
 

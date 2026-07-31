@@ -105,6 +105,7 @@ each call overwrites your live deck for that league/cup.
 | `build_deck_rare_cup(card_info)` | same as above | `str` |
 | `build_deck_epic_cup(card_info)` | same as above | `str` |
 | `build_deck_legendary_cup(card_info)` | same as above | `str` |
+| `get_current_decks()` | — | `dict[str, list[dict]]` — current deck per slot, keyed by slot name (`"division"`, `"cup_common"`, `"cup_limited"`, `"cup_rare"`, `"cup_epic"`, `"cup_legendary"`; unrecognized slots are keyed by their raw hash). Each value is that deck's `cardsSummary` list. |
 
 ### `client.match`
 

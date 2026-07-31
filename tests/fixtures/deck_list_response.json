@@ -1,0 +1,170 @@
+{
+    "message": "deck listed",
+    "data": [
+        {
+            "userId": "google_101848755527710938761",
+            "actif": true,
+            "cardsSummary": [
+                {
+                    "id": "1f119fde-d4f3-6f10-fe05-a9a773d83f22",
+                    "collectionId": "1f110bee-01f3-6bd0-6d90-6b54d4f111f7",
+                    "isLinkedUser": true
+                },
+                {
+                    "id": "1f11231d-360c-6cf0-d690-88eefa58045d",
+                    "collectionId": "1f003090-2aee-6250-109f-d0272367a2ef",
+                    "equipmentId": "1f09e0bd-e101-6470-ec79-2c9d42f67a39_ee9a8b9755c8e1670ec0be4da458e65e",
+                    "isLinkedUser": true
+                }
+            ],
+            "compatibility": {
+                "leagueType": "division",
+                "hash": "7d06fd0f44eceb7a9731e554f8dda962"
+            }
+        },
+        {
+            "userId": "google_101848755527710938761",
+            "actif": true,
+            "cardsSummary": [
+                {
+                    "id": "1f10f15a-e2ab-63c0-638d-0d8d6b03af6a",
+                    "collectionId": "1eff377a-d9be-6e70-59ea-8e1b31ea4c44",
+                    "isLinkedUser": true
+                },
+                {
+                    "id": "1f10e65d-f7b4-66c0-9c1c-78e9bee81326",
+                    "collectionId": "1f0eaeb0-74e1-6fe0-0e87-6fa2e7b201b2",
+                    "equipmentId": "1f09e0bd-e101-6470-ec79-2c9d42f67a39_ee9a8b9755c8e1670ec0be4da458e65e",
+                    "isLinkedUser": true
+                }
+            ],
+            "compatibility": {
+                "leagueType": "cup",
+                "data": {
+                    "acceptedRarities": ["common"]
+                },
+                "hash": "ebd84812d34db552d0e49d8b77ac2da2"
+            }
+        },
+        {
+            "userId": "google_101848755527710938761",
+            "actif": true,
+            "cardsSummary": [
+                {
+                    "id": "1f12ba8d-ecf6-6570-b1fb-11e348593708",
+                    "collectionId": "1f081b1f-63a0-6f40-a268-0234b130a1b9",
+                    "isLinkedUser": true
+                },
+                {
+                    "id": "1f137456-a49a-6b40-59a3-e667bdebc27e",
+                    "collectionId": "1f0ae86c-99ae-6e30-b413-68e7eae908e8",
+                    "equipmentId": "1f09e0bd-e101-6470-ec79-2c9d42f67a39_ee9a8b9755c8e1670ec0be4da458e65e",
+                    "isLinkedUser": true
+                }
+            ],
+            "compatibility": {
+                "leagueType": "cup",
+                "data": {
+                    "acceptedRarities": ["common", "Limited"]
+                },
+                "hash": "35492e16883de04d62263ac46ccc7648"
+            }
+        },
+        {
+            "userId": "google_101848755527710938761",
+            "actif": true,
+            "cardsSummary": [
+                {
+                    "id": "1f1255a4-686a-66b0-616b-9bf03ff38a8e",
+                    "collectionId": "1f110bee-01f3-6bd0-6d90-6b54d4f111f7",
+                    "isLinkedUser": true
+                },
+                {
+                    "id": "1f120fee-8246-6f80-2a31-95d4ac29c0d6",
+                    "collectionId": "1f07783a-3bb0-6810-c213-f5f53af5f2c8",
+                    "equipmentId": "1f09e0bd-e101-6470-ec79-2c9d42f67a39_ee9a8b9755c8e1670ec0be4da458e65e",
+                    "isLinkedUser": true
+                }
+            ],
+            "compatibility": {
+                "leagueType": "cup",
+                "data": {
+                    "acceptedRarities": ["common", "Limited", "Rare"]
+                },
+                "hash": "30ae6f71f9b1faaa705a0331cb9fbeff"
+            }
+        },
+        {
+            "userId": "google_101848755527710938761",
+            "actif": true,
+            "cardsSummary": [
+                {
+                    "id": "1f14c8da-f653-6020-71cb-077f97a3c431",
+                    "collectionId": "1f0d5a2a-718e-6450-4d0a-b208cc23e98c",
+                    "isLinkedUser": false
+                },
+                {
+                    "id": "1f158290-6041-63f3-cd61-2c047937d9c7",
+                    "collectionId": "1f0efa55-0c3d-68e0-5414-b0d13fbc58e4",
+                    "equipmentId": "1f09e0bd-e101-6470-ec79-2c9d42f67a39_ee9a8b9755c8e1670ec0be4da458e65e",
+                    "isLinkedUser": false
+                }
+            ],
+            "compatibility": {
+                "leagueType": "cup",
+                "data": {
+                    "acceptedRarities": ["common", "Limited", "Rare", "Epic"]
+                },
+                "hash": "1d2ed7708f26e5caa8a82b869c1cbcf8"
+            }
+        },
+        {
+            "userId": "google_101848755527710938761",
+            "actif": true,
+            "cardsSummary": [
+                {
+                    "id": "CHARRIERE-c5940a-c6f",
+                    "collectionId": "1efdee8a-0036-6250-b241-e46ca042a6bb",
+                    "isLinkedUser": false
+                },
+                {
+                    "id": "1f13cb4b-9e0e-66e1-4ad6-4bcb665f4d88",
+                    "collectionId": "1f0ae86c-99ae-6e30-b413-68e7eae908e8",
+                    "equipmentId": "1f09e0bd-e101-6470-ec79-2c9d42f67a39_ee9a8b9755c8e1670ec0be4da458e65e",
+                    "isLinkedUser": false
+                }
+            ],
+            "compatibility": {
+                "leagueType": "cup",
+                "data": {
+                    "acceptedRarities": ["common", "Limited", "Rare", "Epic", "Legendary"]
+                },
+                "hash": "9b882b4a63286502953292996298ecb8"
+            }
+        },
+        {
+            "userId": "google_101848755527710938761",
+            "actif": true,
+            "cardsSummary": [
+                {
+                    "id": "unknown-card-1",
+                    "collectionId": "unknown-coll-1",
+                    "isLinkedUser": true
+                },
+                {
+                    "id": "unknown-card-2",
+                    "collectionId": "unknown-coll-2",
+                    "equipmentId": "unknown-equip-1",
+                    "isLinkedUser": true
+                }
+            ],
+            "compatibility": {
+                "leagueType": "cup",
+                "data": {
+                    "acceptedRarities": ["common", "Limited", "Rare", "Epic", "Legendary", "Mythic"]
+                },
+                "hash": "deadbeefdeadbeefdeadbeefdeadbeef"
+            }
+        }
+    ]
+}

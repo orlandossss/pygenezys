@@ -1,3 +1,4 @@
+
 # pygenezys
 
 An unofficial Python client for [Genezys](https://app.genezys.xyz).
@@ -20,9 +21,11 @@ pip install pygenezys
 token, the same one the website itself uses:
 
 1. Log into [app.genezys.xyz](https://app.genezys.xyz) in your browser.
-2. Open your browser's developer tools (F12) and go to the Network tab.
-3. Reload the page and find any request to `app.genezys.xyz`.
-4. Copy the value of the `Authorization` request header — that's your token.
+2. Open your browser's developer tools (F12) or right-click and click on 'inspect' <img width="1871" height="860" alt="inspected" src="https://github.com/user-attachments/assets/cfb1a386-a34e-46f9-bf93-3ec9cd8f7806" />
+3. Go to the Network tab. <img width="1885" height="821" alt="2" src="https://github.com/user-attachments/assets/0b03177a-32f9-4ef3-916d-b6679e837572" />
+4. Reload the page and find any request to `app.genezys.xyz`. <img width="1885" height="821" alt="2" src="https://github.com/user-attachments/assets/0b03177a-32f9-4ef3-916d-b6679e837572" />
+5. Copy the value of the `Authorization` request header — that's your token.<img width="1873" height="755" alt="6" src="https://github.com/user-attachments/assets/c01b1cb6-31c0-4a31-8579-c2f278b3f161" />
+
 
 This token is short-lived (roughly one hour). Once it expires, repeat the
 steps above to get a new one and pass it to `set_token()` (see below)

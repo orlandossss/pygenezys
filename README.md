@@ -1,8 +1,8 @@
 # pygenezys
 
-Un client Python non officiel pour [Genezys](https://app.genezys.xyz).
+Une librarie Python non officiel pour [Genezys](https://app.genezys.xyz).
 
-> **Avertissement** : il s'agit d'un client non officiel, développé par la communauté. Il n'est pas
+> **Avertissement** : il s'agit d'une librarie non officiel, développé par la communauté. Il n'est pas
 > affilié, approuvé ou supporté par Genezys. Il utilise des endpoints API
 > internes non documentés, qui peuvent changer ou cesser de fonctionner sans
 > préavis. L'utilisation de ces endpoints peut être soumise aux Conditions

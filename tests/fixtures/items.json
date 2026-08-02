@@ -1,0 +1,46 @@
+{
+    "message": "fantasy item listed",
+    "data": [
+        {
+            "type": "consumable",
+            "baseLanguage": "EN",
+            "title": "Boisson énergétisante ⚡",
+            "description": "La boisson qui redonne de l'énergie à n'importe quel athlète.",
+            "itemStats": {
+                "boostedCharacteristics": [],
+                "healthPoints": 50
+            },
+            "image": {
+                "urlOriginal": "https://media.app.genezys.xyz/FantasyItemDefinition/1f09e079-8f83-6b50-a63c-3214d527559e/1/original.png",
+                "urlFull": "https://media.app.genezys.xyz/FantasyItemDefinition/1f09e079-8f83-6b50-a63c-3214d527559e/1/full.png"
+            },
+            "id": "1f09e079-8f83-6b50-a63c-3214d527559e_f4487c107fb73b560f3242817e12db58",
+            "definitionId": "1f09e079-8f83-6b50-a63c-3214d527559e",
+            "versionHash": "f4487c107fb73b560f3242817e12db58",
+            "quantity": 10,
+            "inNbDeckUsage": 0
+        },
+        {
+            "type": "equipment",
+            "baseLanguage": "EN",
+            "title": "Basket 👟",
+            "description": "Quoi de mieux que cette paire de basket pour booster ton agilité et ton équilibre ?",
+            "itemStats": {
+                "boostedCharacteristics": [
+                    {"name": "Power", "boostPercentage": 10},
+                    {"name": "Endurance", "boostPercentage": 5},
+                    {"name": "Reflexes", "boostPercentage": -10}
+                ]
+            },
+            "image": {
+                "urlOriginal": "https://media.app.genezys.xyz/FantasyItemDefinition/1f09e0bd-e101-6470-ec79-2c9d42f67a39/0/original.png",
+                "urlFull": "https://media.app.genezys.xyz/FantasyItemDefinition/1f09e0bd-e101-6470-ec79-2c9d42f67a39/0/full.png"
+            },
+            "id": "1f09e0bd-e101-6470-ec79-2c9d42f67a39_ee9a8b9755c8e1670ec0be4da458e65e",
+            "definitionId": "1f09e0bd-e101-6470-ec79-2c9d42f67a39",
+            "versionHash": "ee9a8b9755c8e1670ec0be4da458e65e",
+            "quantity": 1,
+            "inNbDeckUsage": 4
+        }
+    ]
+}

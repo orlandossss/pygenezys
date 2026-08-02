@@ -107,6 +107,13 @@ each call overwrites your live deck for that league/cup.
 | `build_deck_legendary_cup(card_info)` | same as above | `str` |
 | `get_current_decks()` | — | `dict[str, list[dict]]` — current deck per slot, keyed by slot name (`"division"`, `"cup_common"`, `"cup_limited"`, `"cup_rare"`, `"cup_epic"`, `"cup_legendary"`; unrecognized slots are keyed by their raw hash). Each value is that deck's `cardsSummary` list. |
 
+### `client.items`
+
+| Method | Takes | Returns |
+|---|---|---|
+| `get_items_info(item_type=None)` | `item_type: str \| None` — filter to `"consumable"` or `"equipment"`; `None` returns both. Raises `ValueError` on any other value. | `list[dict]` — one entry per item: `{id, type, title, quantity, in_nb_deck_usage, health_points, boosted_characteristics}`. `id` is the value to pass as `equipmentId` when building a deck (see `client.deck`). `health_points` is `None` for items that don't restore health (equipment). `boosted_characteristics: list[dict]` is `{name, boost_percentage}` per boosted characteristic (empty for items with no boosts). |
+| `get_all_info()` | — | `dict` — full raw `/items` response. |
+
 ### `client.match`
 
 **⚠ mutates** — both methods queue/play a real match on your account.

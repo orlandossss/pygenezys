@@ -1,3 +1,188 @@
+# pygenezys
+
+Un client Python non officiel pour [Genezys](https://app.genezys.xyz).
+
+> **Avertissement** : il s'agit d'un client non officiel, développé par la communauté. Il n'est pas
+> affilié, approuvé ou supporté par Genezys. Il utilise des endpoints API
+> internes non documentés, qui peuvent changer ou cesser de fonctionner sans
+> préavis. L'utilisation de ces endpoints peut être soumise aux Conditions
+> d'utilisation de Genezys — utilisez-le à vos propres risques.
+
+## Installation
+
+```
+pip install pygenezys
+```
+
+## Obtenir un token
+
+`pygenezys` ne se connecte pas en votre nom — vous fournissez votre propre
+token de session, le même que celui utilisé par le site web :
+
+1. Connectez-vous sur [app.genezys.xyz](https://app.genezys.xyz) dans votre navigateur.
+2. Ouvrez les outils de développement de votre navigateur (F12) ou faites un clic droit et cliquez sur 'inspecter' <img width="1871" height="860" alt="inspected" src="https://github.com/user-attachments/assets/cfb1a386-a34e-46f9-bf93-3ec9cd8f7806" />
+
+3. Allez dans l'onglet Réseau (Network). <img width="1885" height="821" alt="2" src="https://github.com/user-attachments/assets/0b03177a-32f9-4ef3-916d-b6679e837572" />
+
+4. Rechargez la page et trouvez une requête vers `app.genezys.xyz`.<img width="1917" height="862" alt="5" src="https://github.com/user-attachments/assets/751245f6-52e9-44cc-b96c-62db6526d2a3" />
+
+5. Copiez la valeur de l'en-tête de requête `Authorization` — c'est votre token.<img width="1873" height="755" alt="6" src="https://github.com/user-attachments/assets/c01b1cb6-31c0-4a31-8579-c2f278b3f161" />
+
+
+Ce token a une durée de vie limitée (environ une heure). Une fois expiré, répétez les
+étapes ci-dessus pour en obtenir un nouveau et passez-le à `set_token()` (voir ci-dessous)
+au lieu de créer un nouveau client.
+
+## Démarrage rapide
+
+```python
+from pygenezys import GenezysClient
+
+client = GenezysClient("votre-token-ici")
+
+print(client.user.get_username())
+print(client.user.get_gnz())
+print(client.cup.get_available_cups_id())
+```
+
+Lorsque votre token expire, remplacez-le par un nouveau sur le même client au lieu de
+le réinstancier :
+
+```python
+client.set_token("votre-nouveau-token-ici")
+```
+
+## Ressources disponibles
+
+Chaque ressource est organisée par namespace sur le client et reflète une zone fonctionnelle de Genezys.
+Les méthodes marquées **⚠ modifie** changent l'état réel de votre compte (deck ou file
+d'attente de match) au lieu de simplement lire les données — utilisez-les délibérément.
+
+### `client.user`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `get_username()` | — | `str` — le nom d'affichage du compte (pseudo). |
+| `get_gnz()` | — | `int` — solde de tokens GNZ. |
+| `get_gems()` | — | `int` — solde de gemmes. |
+| `get_activity_points()` | — | `int` — points d'activité gagnés cette période, en attente de réclamation. |
+| `get_airdrop()` | — | `int` — tokens en attente de réclamation depuis l'airdrop. |
+| `get_user_id()` | — | `str` — ID utilisateur interne. |
+| `get_all_info()` | — | `dict` — réponse brute complète de `/users/connected`. |
+
+### `client.arena`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `get_arena_info()` | — | `(name, boosted_levels, boosted_characteristics)` — `name: str` est le titre de l'arène actuelle ; `boosted_levels: list[str]` sont les niveaux de cartes (par ex. `"talent"`, `"champion"`, `"star"`) notés favorablement cette période ; `boosted_characteristics: list[str]` sont les noms de caractéristiques (par ex. `"Power"`, `"Technique"`) notées favorablement cette période. |
+
+### `client.average_price`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `average_prices()` | — | `(limited_price, rare_price, epic_price, legendary_price)` — chacun est un `float`, le prix de vente moyen sur le marché pour cette rareté. |
+
+### `client.challenges`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `get_challenges_info()` | — | `list[dict]` — une entrée par défi actif : `{name, athlete, total_entries, start_date, end_date}`. |
+
+### `client.cup`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `get_available_cups_id()` | — | `list[str]` — IDs des coupes actuellement disponibles. |
+| `get_available_cups_info()` | — | `list[dict]` — une entrée par coupe : `{id: str, accepted_rarities: list[str]}` (par ex. `["common", "Limited"]`). |
+| `get_all_info()` | — | `dict` — réponse brute complète de `/cups`. |
+
+### `client.deck`
+
+Chaque méthode `build_deck_*` prend les mêmes paramètres et retourne la même structure ;
+elles diffèrent uniquement par la ligue/coupe à laquelle elles soumettent. **⚠ modifie** —
+chaque appel écrase votre deck en direct pour cette ligue/coupe.
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `build_deck_division(card_info)` | `card_info: list[dict]` — cartes à aligner, telles que retournées par `client.my_cards.get_my_cards()` (chacune nécessite au moins `id` et `collectionId`, plus un `equipmentId` optionnel) | `str` — le message de réponse de l'API. |
+| `build_deck_commun_cup(card_info)` | identique à ci-dessus | `str` |
+| `build_deck_limited_cup(card_info)` | identique à ci-dessus | `str` |
+| `build_deck_rare_cup(card_info)` | identique à ci-dessus | `str` |
+| `build_deck_epic_cup(card_info)` | identique à ci-dessus | `str` |
+| `build_deck_legendary_cup(card_info)` | identique à ci-dessus | `str` |
+| `get_current_decks()` | — | `dict[str, list[dict]]` — deck actuel par emplacement, indexé par nom d'emplacement (`"division"`, `"cup_common"`, `"cup_limited"`, `"cup_rare"`, `"cup_epic"`, `"cup_legendary"` ; les emplacements non reconnus sont indexés par leur hash brut). Chaque valeur est la liste `cardsSummary` de ce deck. |
+
+### `client.items`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `get_items_info(item_type=None)` | `item_type: str \| None` — filtrer sur `"consumable"` ou `"equipment"` ; `None` retourne les deux. Lève `ValueError` pour toute autre valeur. | `list[dict]` — une entrée par objet : `{id, type, title, quantity, in_nb_deck_usage, health_points, boosted_characteristics}`. `id` est la valeur à passer comme `equipmentId` lors de la construction d'un deck (voir `client.deck`). `health_points` est `None` pour les objets qui ne restaurent pas de santé (équipement). `boosted_characteristics: list[dict]` est `{name, boost_percentage}` par caractéristique boostée (vide pour les objets sans boost). |
+| `get_all_info()` | — | `dict` — réponse brute complète de `/items`. |
+
+### `client.match`
+
+**⚠ modifie** — les deux méthodes mettent en file d'attente/jouent un vrai match sur votre compte.
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `run_division_match()` | — | `dict` — réponse API brute (vide en cas de succès). |
+| `run_cup_match(cup_id)` | `cup_id: str` — un ID de coupe de `client.cup.get_available_cups_id()` | `dict` — réponse API brute (vide en cas de succès). |
+
+### `client.match_history`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `get_match_history(numberof_matches=10)` | `numberof_matches: int` — nombre de matchs passés à récupérer | `list[dict]` — une entrée par match : `{date, detail_match, victory: bool, opponnent_name, opponent_score, opponent_id, user_score, userdeck, opponentdeck}`. `userdeck`/`opponentdeck` sont chacun `list[dict]` de `{card_name, score, health}`. |
+
+### `client.mission`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `get_missions()` | — | `(all_missions_rewards, missions_info)` — `all_missions_rewards: [reward_type, reward_quantity]` pour avoir terminé toutes les missions quotidiennes ; `missions_info: list[dict]` est une entrée par mission : `{title, reward_quantity, action_quantity, reward_type}`. |
+
+### `client.my_cards`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `get_my_cards(order='desc', sortBy='baseScore', max_results=20)` | `order: str`, `sortBy: str`, `max_results: int` | `dict` — réponse brute ; les cartes sont dans `["data"]["cardsList"]`. Chaque carte a `rarity` (cartes de niveau de rareté) ou `type: "common"` (communes, pas de clé `rarity`), plus `level`, `health.points`, `characteristics`, `baseScore`, etc. |
+
+### `client.market`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `get_market(order='desc', sortBy='date', max_results=20)` | `order: str`, `sortBy: str`, `max_results: int` | `dict` — réponse brute ; les annonces sont dans `["data"]["listings"]`, avec `["data"]["nextKey"]` pour la pagination. |
+
+### `client.ranking`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `cup_leaderboard(cup_id, max_results=10)` | `cup_id: str`, `max_results: int` | `(own_info, players)` — `own_info: dict` est `{score, matchplayed, position}` pour l'utilisateur actuel ; `players: list[dict]` sont les meilleures entrées, chacune `{score, name, userId, matchplayed, position}`. |
+| `division_leaderboard(max_results)` | `max_results: int` | `(own_info, players)` — `own_info: dict` est `{score, matchplayed, position, division_rank}` ; `players` a la même structure que ci-dessus. |
+
+### `client.rewards`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `get_daily_rewards_info()` | — | `(id, reward_type, reward_quantity)` — l'ID, le type et la quantité de la récompense quotidienne actuelle. |
+| `get_missions_info()` | — | `list[dict]` — une entrée par mission quotidienne (`{title, reward_quantity, action_quantity, reward_type}`), plus une entrée finale pour le bonus "terminer toutes les missions" (`{title, reward_quantity, reward_type}`, pas de `action_quantity`). |
+
+### `client.transaction_history`
+
+| Méthode | Paramètres | Retour |
+|---|---|---|
+| `get_transaction_history(numberof_matches=10)` | `numberof_matches: int` — nombre de transactions passées à récupérer | `list[dict]` — une entrée par transaction : `{date, type, details}`. |
+
+## Formats des réponses
+
+Vous pouvez trouver tous les exemples de réponses JSON et leurs champs attendus dans pygenezys/tests/fixtures.
+
+## Licence
+
+MIT
+
+---
+
+# English Version
 
 # pygenezys
 

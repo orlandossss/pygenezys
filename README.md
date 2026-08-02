@@ -52,6 +52,64 @@ le réinstancier :
 client.set_token("votre-nouveau-token-ici")
 ```
 
+## Installation pour le développement
+
+Pour installer pygenezys en mode développement (éditable) :
+
+```bash
+git clone <repository-url>
+cd pygenezys
+pip install -e .
+```
+
+Pour installer avec les dépendances de développement :
+
+```bash
+pip install -e .[dev]
+```
+
+## Exemples
+
+Le répertoire `examples/` contient des scripts d'exemple démontrant l'utilisation de pygenezys.
+
+### Exécuter les exemples
+
+Les exemples nécessitent un token Genezys valide. Créez un fichier `.env` à la racine du projet :
+
+```bash
+# .env
+PYGENEZYS_TOKEN=votre-token-ici
+```
+
+Installez les dépendances des exemples :
+
+```bash
+pip install -e .[examples]
+```
+
+Ensuite exécutez n'importe quel exemple :
+
+```bash
+python examples/best_deck_and_match.py
+```
+
+### `best_deck_and_match.py`
+
+Cet exemple automatise l'optimisation de deck et le jeu de matchs :
+
+- Récupère les informations de l'arène actuelle (niveaux et caractéristiques boostés)
+- Calcule les meilleurs decks possibles pour la division et toutes les coupes disponibles
+- Soumet ces decks à votre compte
+- Joue automatiquement des matchs
+- Re-calcule et soumet les meilleurs decks après chaque match (car les points de vie peuvent changer)
+
+**⚠️ Attention** : Ce script effectue des actions réelles sur votre compte :
+- Il écrase vos decks en direct
+- Il met en file d'attente et joue de vrais matchs
+- Il s'exécute `ITERATIONS` fois (défini à 10 par défaut)
+
+Utilisez-le avec précaution et assurez-vous de comprendre ce qu'il fait avant de l'exécuter.
+
 ## Ressources disponibles
 
 Chaque ressource est organisée par namespace sur le client et reflète une zone fonctionnelle de Genezys.
@@ -237,6 +295,64 @@ re-instantiating:
 ```python
 client.set_token("your-new-token-here")
 ```
+
+## Development Installation
+
+To install pygenezys in development (editable) mode:
+
+```bash
+git clone <repository-url>
+cd pygenezys
+pip install -e .
+```
+
+To install with development dependencies:
+
+```bash
+pip install -e .[dev]
+```
+
+## Examples
+
+The `examples/` directory contains example scripts demonstrating pygenezys usage.
+
+### Running Examples
+
+Examples require a valid Genezys token. Create a `.env` file at the project root:
+
+```bash
+# .env
+PYGENEZYS_TOKEN=your-token-here
+```
+
+Install example dependencies:
+
+```bash
+pip install -e .[examples]
+```
+
+Then run any example:
+
+```bash
+python examples/best_deck_and_match.py
+```
+
+### `best_deck_and_match.py`
+
+This example automates deck optimization and match playing:
+
+- Fetches current arena information (boosted levels and characteristics)
+- Calculates the best possible decks for division and all available cups
+- Submits these decks to your account
+- Automatically plays matches
+- Re-calculates and submits the best decks after each match (as health points may change)
+
+**⚠️ Warning**: This script performs real actions on your account:
+- It overwrites your live decks
+- It queues and plays real matches
+- It runs `ITERATIONS` times (set to 10 by default)
+
+Use it carefully and make sure you understand what it does before running it.
 
 ## Available resources
 
